@@ -28,7 +28,7 @@ class CfgPatches
         {
             "Aux24th_Unit_Reaper",
             "Aux24th_Unit_Deimos",
-            "Aux24th_Unit_Maximus",
+            "Aux24th_Unit_Maximus"
         };
         weapons[] =
         {
@@ -52,12 +52,7 @@ class CfgPatches
             "Aux24th_Helmet_STRKPilot",
             "Aux24th_Vest_Airborne",
             "Aux24th_Vest_Airborne_NCO",
-            "Aux24th_Vest_Airborne_Officer",
-            "",
-            "",
-
-
-
+            "Aux24th_Vest_Airborne_Officer"
         };
     };
 };

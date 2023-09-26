@@ -221,7 +221,7 @@ class CfgWeapons
 		{
 		    "Aux24th\Textures\24th_Airborne_Trooper_Heavy_Accessories_vest.paa", // Chest plate/Satchel
             "Aux24th\Textures\24th_Airborne_Trooper_Officer_Accessories_vest.paa", // Kama
-            "SWLB_clones\data\heavy_accessories_co.paa" // Shoulder Round Holster
+            "Aux24th\Textures\24th_Airborne_Trooper_Heavy_Accessories_vest.paa" // Shoulder Round Holster
 		};
 	};
 
@@ -232,7 +232,7 @@ class CfgWeapons
 		{
 		    "Aux24th\Textures\24th_Airborne_NCO_Heavy_Accessories.paa", // Chest plate/Satchel
             "Aux24th\Textures\24th_Airborne_NCO_Officer_Accessories.paa", // Kama
-            "SWLB_clones\data\heavy_accessories_co.paa", // Shoulder Round holder
+            "Aux24th\Textures\24th_Airborne_NCO_Heavy_Accessories.paa", // Shoulder Round holder
             "Aux24th\Textures\24th_Airborne_NCO_Heavy_Accessories.paa" // NCO pauldron
 		};
 	};
@@ -245,7 +245,7 @@ class CfgWeapons
 		    "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories.paa", // Chest plate/Satchel
             "Aux24th\Textures\24th_Airborne_Officer_Officer_Accessories.paa", // Kama
             "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories.paa", // Shoulder Round Holder
-            "" // Officer Pauldron
+            "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories.paa" // Officer Pauldron
 		};
 	};
 };
