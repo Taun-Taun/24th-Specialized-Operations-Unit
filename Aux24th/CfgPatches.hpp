@@ -51,7 +51,8 @@ class CfgPatches
             "Aux24th_Uniform_STRKPilot",
             "Aux24th_Helmet_STRKPilot",
             "Aux24th_Vest_Airborne",
-            "",
+            "Aux24th_Vest_Airborne_NCO",
+            "Aux24th_Vest_Airborne_Officer",
             "",
             "",
 
