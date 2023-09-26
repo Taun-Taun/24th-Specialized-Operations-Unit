@@ -242,10 +242,10 @@ class CfgWeapons
         displayName = "24th Strike Airborne Officer Vest"
 		hiddenSelectionsTextures[]=
 		{
-		    "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories_vest.paa", // Chest plate/Satchel
-            "Aux24th\Textures\24th_Airborne_Officer_Officer_Accessories_vest.paa", // Kama
+		    "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories.paa", // Chest plate/Satchel
+            "Aux24th\Textures\24th_Airborne_Officer_Officer_Accessories.paa", // Kama
             "SWLB_clones\data\heavy_accessories_co.paa", // Shoulder Round Holder
-            "" // Officer Pauldrons
+            "Aux24th\Textures\24th_Airborne_Officer_Officer_Accessories.paa" // Officer Pauldrons
 		};
 	};
 };
