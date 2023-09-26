@@ -19,6 +19,7 @@ class CfgPatches
             "lsd_equipment_bluefor",
                 // Standard NVGs
                 // Rangefinder NVGs
+                // Armor Plating NVGs
             "SWLB_Clones"
                 // Clone Commander Visor
                 // Officer Vest"
@@ -52,7 +53,11 @@ class CfgPatches
             "Aux24th_Helmet_STRKPilot",
             "Aux24th_Vest_Airborne",
             "Aux24th_Vest_Airborne_NCO",
-            "Aux24th_Vest_Airborne_Officer"
+            "Aux24th_Vest_Airborne_Officer",
+            "Aux24th_Uniform_Maximus",
+            "Aux24th_Maximus_Tanker",
+            "Aux24th_Helmet_Maximus",
+            "Aux24th_Vest_Maximus"
         };
     };
 };

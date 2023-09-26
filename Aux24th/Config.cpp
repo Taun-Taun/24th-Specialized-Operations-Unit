@@ -21,6 +21,7 @@ class CfgWeapons
     class SWLB_clone_P15_Helmet;
     class SWLB_clone_officer_armor;
     class SWLB_clone_airborne_armor;
+    class lsd_gar_tanker_nvg;
 
 	class Aux24th_Vest_Reaper: SWLB_clone_arc_armor
 	{
@@ -248,6 +249,46 @@ class CfgWeapons
             "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories.paa" // Officer Pauldron
 		};
 	};
+
+    class Aux24th_Vest_Maximus: SWLB_clone_officer_armor
+	{
+        displayName = "Maximus's Vest"
+		hiddenSelectionsTextures[]=
+		{
+		"Aux24th\Textures\Maximus_Officer_Accessories.paa"
+		};
+	};
+
+    class Aux24th_Helmet_Maximus: ls_gar_phase2_helmet
+    {
+        displayName = "Maximus's Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\Maximus_P2_Helmet.paa",
+            "Aux24th\Textures\Maximus_Visor.paa" // Blue Visor
+        };
+    };
+
+    class Aux24th_Maximus_Tanker: lsd_gar_tanker_nvg
+    {
+        displayName = "Maximus's Tanker NVG";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\Maximus_Tanker_Attachment.paa"
+        }
+    };
+
+     class Aux24th_Uniform_Maximus: ls_gar_phase2_uniform
+	{
+		displayName = "Maximus's Armor";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Aux24th_Unit_Maximus"; 
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
 };
 
 
@@ -341,6 +382,18 @@ class CfgVehicles
         {
             "Aux24th\Textures\24th_STRK_Pilot_Uniform_Upper.paa",    // Upper Half
             "Aux24th\Textures\24th_STRK_Pilot_Uniform_Lower.paa",    // Lower Half
+            "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
+    class Aux24th_Unit_Maximus: lsd_gar_trooper_phase1
+    {
+        displayName = "Maximus's Armor";
+        uniformClass = "Aux24th_Uniform_Maximus";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\Maximus_Uniform_Upper.paa",    // Upper Half
+            "Aux24th\Textures\Maximus_Uniform_Lower.paa",    // Lower Half
             "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
         };
     };
