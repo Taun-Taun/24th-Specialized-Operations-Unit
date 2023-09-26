@@ -244,8 +244,8 @@ class CfgWeapons
 		{
 		    "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories.paa", // Chest plate/Satchel
             "Aux24th\Textures\24th_Airborne_Officer_Officer_Accessories.paa", // Kama
-            "SWLB_clones\data\heavy_accessories_co.paa", // Shoulder Round Holder
-            "Aux24th\Textures\24th_Airborne_Officer_Officer_Accessories.paa" // Officer Pauldrons
+            "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories.paa", // Shoulder Round Holder
+            "" // Officer Pauldron
 		};
 	};
 };
