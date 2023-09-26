@@ -275,10 +275,10 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Maximus_Tanker_Attachment.paa"
-        }
+        };
     };
 
-     class Aux24th_Uniform_Maximus: ls_gar_phase2_uniform
+    class Aux24th_Uniform_Maximus: ls_gar_phase2_uniform
 	{
 		displayName = "Maximus's Armor";
 		class ItemInfo : UniformItem
