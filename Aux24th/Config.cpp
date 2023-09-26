@@ -230,9 +230,9 @@ class CfgWeapons
         displayName = "24th Strike Airborne NCO Vest"
 		hiddenSelectionsTextures[]=
 		{
-		    "Aux24th\Textures\24th_Airborne_NCO_Heavy_Accessories_vest.paa", // Chest plate/Satchel
-            "Aux24th\Textures\24th_Airborne_NCO_Officer_Accessories_vest.paa", // Kama
-            "", // NCO Shoulder
+		    "Aux24th\Textures\24th_Airborne_NCO_Heavy_Accessories.paa", // Chest plate/Satchel
+            "Aux24th\Textures\24th_Airborne_NCO_Officer_Accessories.paa", // Kama
+            "Aux24th\Textures\24th_Airborne_NCO_Heavy_Accessories.paa", // NCO Shoulder
             "SWLB_clones\data\heavy_accessories_co.paa" // Shoulder Round Holster
 		};
 	};
