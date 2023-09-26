@@ -20,6 +20,7 @@ class CfgWeapons
 	class SWLB_CEE_Rex_Helmet;
     class SWLB_clone_P15_Helmet;
     class SWLB_clone_officer_armor;
+    class SWLB_clone_airborne_armor;
 
 	class Aux24th_Vest_Reaper: SWLB_clone_arc_armor
 	{
@@ -213,12 +214,14 @@ class CfgWeapons
         };
     };
 
-    class Aux24th_Vest_Airborne: SWLB_clone_officer_armor
+    class Aux24th_Vest_Airborne: SWLB_clone_airborne_armor
 	{
         displayName = "24th Strike Airborne vest"
 		hiddenSelectionsTextures[]=
 		{
-		"Aux24th\Textures\24th_STRK_Accessories_Officer.paa"
+		    "Aux24th\Textures\24th_Airborne_Trooper_Heavy_Accessories_vest.paa", // Chest plate/Satchel
+            "Aux24th\Textures\24th_Airborne_Trooper_Officer_Accessories_vest.paa", // Kama
+            "SWLB_clones\data\heavy_accessories_co.paa" // Shoulder Round Holster
 		};
 	};
 };

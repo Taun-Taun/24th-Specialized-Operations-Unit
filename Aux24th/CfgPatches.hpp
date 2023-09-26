@@ -22,6 +22,7 @@ class CfgPatches
             "SWLB_Clones"
                 // Clone Commander Visor
                 // Officer Vest"
+                // Airborne Vest
         };
         units[] =
         {
