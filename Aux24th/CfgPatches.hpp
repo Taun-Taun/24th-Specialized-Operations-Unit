@@ -22,7 +22,7 @@ class CfgPatches
                 // Armor Plating NVGs
             "SWLB_Clones"
                 // Clone Commander Visor
-                // Officer Vest"
+                // Officer Vest
                 // Airborne Vest
         };
         units[] =
