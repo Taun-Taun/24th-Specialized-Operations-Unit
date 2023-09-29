@@ -217,7 +217,7 @@ class CfgWeapons
 
     class Aux24th_Vest_Airborne: SWLB_clone_airborne_armor
 	{
-        displayName = "24th Strike Airborne Vest"
+        displayName = "24th Airborne Vest"
 		hiddenSelectionsTextures[]=
 		{
 		    "Aux24th\Textures\24th_Airborne_Trooper_Heavy_Accessories_vest.paa", // Chest plate/Satchel
@@ -228,7 +228,7 @@ class CfgWeapons
 
     class Aux24th_Vest_Airborne_NCO: SWLB_clone_airborne_armor
 	{
-        displayName = "24th Strike Airborne NCO Vest"
+        displayName = "24th Airborne NCO Vest"
 		hiddenSelectionsTextures[]=
 		{
 		    "Aux24th\Textures\24th_Airborne_NCO_Heavy_Accessories.paa", // Chest plate/Satchel
@@ -240,7 +240,7 @@ class CfgWeapons
 
     class Aux24th_Vest_Airborne_Officer: SWLB_clone_airborne_armor
 	{
-        displayName = "24th Strike Airborne Officer Vest"
+        displayName = "24th Airborne Officer Vest"
 		hiddenSelectionsTextures[]=
 		{
 		    "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories.paa", // Chest plate/Satchel
@@ -347,6 +347,17 @@ class CfgWeapons
             "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
         };
     };
+
+    class Aux24th_Vest_Airborne_Medic: SWLB_clone_airborne_armor
+	{
+        displayName = "24th Airborne Medic Vest"
+		hiddenSelectionsTextures[]=
+		{
+		    "Aux24th\Textures\Aux24th\Textures\24th_Airborne_Medic_Heavy_Accessories.paa", // Chest plate/Satchel
+            "Aux24th\Textures\24th_Airborne_Trooper_Officer_Accessories_vest.paa", // Kama
+            "Aux24th\Textures\24th_Airborne_Trooper_Heavy_Accessories_vest.paa" // Shoulder Round Holster
+		};
+	};
 };
 
 
