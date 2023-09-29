@@ -353,9 +353,9 @@ class CfgWeapons
         displayName = "24th Airborne Medic Vest"
 		hiddenSelectionsTextures[]=
 		{
-		    "Aux24th\Textures\Aux24th\Textures\24th_Airborne_Medic_Heavy_Accessories.paa", // Chest plate/Satchel
+		    "Aux24th\Textures\24th_Airborne_Medic_Heavy_Accessories.paa", // Chest plate/Satchel
             "Aux24th\Textures\24th_Airborne_Trooper_Officer_Accessories_vest.paa", // Kama
-            "Aux24th\Textures\24th_Airborne_Trooper_Heavy_Accessories_vest.paa" // Shoulder Round Holster
+            "Aux24th\Textures\24th_Airborne_Medic_Heavy_Accessories.paa" // Shoulder Round Holster
 		};
 	};
 };
