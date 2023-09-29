@@ -289,6 +289,64 @@ class CfgWeapons
 			mass = 40;
 		};
 	};
+
+    class Aux24th_Uniform_Blitz: ls_gar_phase2_uniform
+	{
+		displayName = "Blitz's Armor";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Aux24th_Unit_Blitz"; 
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
+
+    class Aux24th_Uniform_ABTrooper: ls_gar_phase2_uniform
+	{
+		displayName = "24th Airborne Trooper Armor";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Aux24th_Unit_ABTrooper"; 
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
+
+    class Aux24th_Uniform_ABMedic: ls_gar_phase2_uniform
+	{
+		displayName = "24th Airborne Medic Armor";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Aux24th_Unit_ABMedic"; 
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
+
+    class Aux24th_Uniform_Trooper: ls_gar_phase2_uniform
+	{
+		displayName = "24th Trooper Armor";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Aux24th_Unit_Trooper"; 
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
+
+    class Aux24th_Helmet_Trooper: ls_gar_phase2_helmet
+    {
+        displayName = "24th Trooper Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24th_Basic_Trooper_Helmet.paa",
+            "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
+        };
+    };
 };
 
 
@@ -394,6 +452,54 @@ class CfgVehicles
         {
             "Aux24th\Textures\Maximus_Uniform_Upper.paa",    // Upper Half
             "Aux24th\Textures\Maximus_Uniform_Lower.paa",    // Lower Half
+            "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
+    class Aux24th_Unit_Blitz: lsd_gar_trooper_phase1
+    {
+        displayName = "Blitz's Armor";
+        uniformClass = "Aux24th_Uniform_Blitz";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Airborne_Blitz_Uniform_Upper.paa",    // Upper Half
+            "Aux24th\Textures\24th_Airborne_Blitz_Uniform_Lower.paa",    // Lower Half
+            "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
+    class Aux24th_Unit_ABTrooper: lsd_gar_trooper_phase1
+    {
+        displayName = "24th Airborne Trooper Armor";
+        uniformClass = "Aux24th_Uniform_ABTrooper";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Airborne_Trooper_Uniform_Upper.paa",    // Upper Half
+            "Aux24th\Textures\24th_Airborne_Trooper_Uniform_Lower.paa",    // Lower Half
+            "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
+    class Aux24th_Unit_ABMedic: lsd_gar_trooper_phase1
+    {
+        displayName = "24th Airborne Medic Armor";
+        uniformClass = "Aux24th_Uniform_ABMedic";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Airborne_Medic_Uniform_Upper.paa",    // Upper Half
+            "Aux24th\Textures\24th_Airborne_Medic_Uniform_Lower.paa",    // Lower Half
+            "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
+    class Aux24th_Unit_Trooper: lsd_gar_trooper_phase1
+    {
+        displayName = "24th Trooper Armor";
+        uniformClass = "Aux24th_Uniform_Trooper";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Basic_Trooper_Uniform_Upper.paa",    // Upper Half
+            "Aux24th\Textures\24th_Basic_Trooper_Uniform_Lower.paa",    // Lower Half
             "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
         };
     };

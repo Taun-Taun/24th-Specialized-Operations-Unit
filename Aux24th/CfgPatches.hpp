@@ -57,7 +57,11 @@ class CfgPatches
             "Aux24th_Uniform_Maximus",
             "Aux24th_Maximus_Tanker",
             "Aux24th_Helmet_Maximus",
-            "Aux24th_Vest_Maximus"
+            "Aux24th_Vest_Maximus",
+            "Aux24th_Uniform_Blitz",
+            "Aux24th_Uniform_ABTrooper",
+            "Aux24th_Uniform_ABMedic",
+            "Aux24th_Uniform_Trooper"
         };
     };
 };
