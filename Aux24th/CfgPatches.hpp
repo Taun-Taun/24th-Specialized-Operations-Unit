@@ -30,7 +30,10 @@ class CfgPatches
             "Aux24th_Unit_Reaper",
             "Aux24th_Unit_Deimos",
             "Aux24th_Unit_Maximus",
-            "Aux24th_Unit_Blitz"
+            "Aux24th_Unit_Blitz",
+            "Aux24th_Unit_ABTrooper",
+            "Aux24th_Unit_ABMedic",
+            "Aux24th_Unit_Trooper"
         };
         weapons[] =
         {
