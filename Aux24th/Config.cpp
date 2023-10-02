@@ -22,7 +22,6 @@ class CfgWeapons
     class SWLB_clone_officer_armor;
     class SWLB_clone_airborne_armor;
     class lsd_gar_tanker_nvg;
-    class SWLB_clone_backpack_medic;
     class SWLB_clone_backpack;
     class SWLB_clone_medic_armor;
 
@@ -388,8 +387,25 @@ class CfgWeapons
         displayName = "24th Clone Backpack";
         hiddenSelectionsTextures[]=
         {
-            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_co.paa",
-            "Aux24th\Textures\24th_Clone_Backpack.paa"
+            "Aux24th\Textures\24th_Clone_Backpack.paa",
+            "Aux24th\Textures\24th_Clone_Backpack.paa",
+            "",
+            "",
+            ""
+        };
+    };
+
+    class Aux24th_Backpack_Heavy: Aux24th_Backpack
+    {
+        displayName = "24th Trooper Heavy Backpack";
+
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Clone_Backpack.paa",      // Main Texture
+            "Aux24th\Textures\24th_Clone_Backpack.paa",      // Cover
+            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_co.paa", // Heavy
+            "",                                                         // Medic
+            ""                                                          // RTO
         };
     };
 };
@@ -404,6 +420,8 @@ class CfgVehicles
 
     // Base Classes
     class lsd_gar_trooper_phase1;
+    class SWLB_clone_backpack;
+    class SWLB_clone_backpack_medic;
 
     class Aux24th_Unit_Reaper: lsd_gar_trooper_phase1
     {
@@ -546,6 +564,62 @@ class CfgVehicles
             "Aux24th\Textures\24th_Basic_Trooper_Uniform_Upper.paa",    // Upper Half
             "Aux24th\Textures\24th_Basic_Trooper_Uniform_Lower.paa",    // Lower Half
             "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
+    class Aux24th_Backpack: SWLB_clone_backpack
+    {
+        // Mod Info
+        dlc = "Aux24th";
+        author = "Taun";
+
+        // Scope
+        scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+
+        maximumLoad = 400;
+
+        displayName = "24th Trooper Backpack";
+
+        picture = "Aux24th\Data\24th_Backpack_UI.paa";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Clone_Backpack.paa", // Main Texture
+            "Aux24th\Textures\24th_Clone_Backpack.paa", // Cover
+            "",                                                    // Heavy
+            "",                                                    // Medic
+            ""                                                     // RTO
+        };
+    };
+
+    class Aux24th_Backpack_Medic: Aux24th_Backpack
+    {
+        displayName = "24th Medical Backpack";
+
+        picture = "Aux24th\Data\24th_Backpack_Medic_UI.paa";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Clone_Medic_Backpack.paa", // Main Texture
+            "Aux24th\Textures\24th_Clone_Medic_Backpack.paa", // Cover
+            "",                                                          // Heavy
+            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_co.paa",  // Medic
+            ""                                                           // RTO
+        };
+    };
+
+    class Aux24th_Backpack_Heavy: Aux24th_Backpack
+    {
+        displayName = "24th Trooper Heavy Backpack";
+
+        picture = "Aux24th\Data\24th_Backpack_Heavy_UI.paa";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Clone_Backpack.paa",      // Main Texture
+            "Aux24th\Textures\24th_Clone_Backpack.paa",      // Cover
+            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_co.paa", // Heavy
+            "",                                                         // Medic
+            ""                                                          // RTO
         };
     };
 }

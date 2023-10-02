@@ -71,7 +71,8 @@ class CfgPatches
             "Aux24th_Vest_Airborne_Medic",
             "Aux24th_Backpack_Medic",
             "Aux24th_Backpack",
-            "Aux24th_Vest_Medic"
+            "Aux24th_Vest_Medic",
+            "Aux24th_Backpack_Heavy"
         };
     };
 };
