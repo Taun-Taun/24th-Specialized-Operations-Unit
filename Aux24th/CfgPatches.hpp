@@ -72,7 +72,9 @@ class CfgPatches
             "Aux24th_Backpack_Medic",
             "Aux24th_Backpack",
             "Aux24th_Vest_Medic",
-            "Aux24th_Backpack_Heavy"
+            "Aux24th_Backpack_Heavy",
+            "Aux24th_Uniform_NCO_Trooper",
+            "Aux24th_NCO_Helmet_Trooper"
         };
     };
 };

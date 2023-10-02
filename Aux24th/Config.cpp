@@ -408,6 +408,28 @@ class CfgWeapons
             ""                                                          // RTO
         };
     };
+
+    class Aux24th_Uniform_NCO_Trooper: ls_gar_phase2_uniform
+	{
+		displayName = "24th NCO Trooper Armor";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Aux24th_Unit_NCO_Trooper"; 
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
+
+    class Aux24th_Helmet_NCO_Trooper: ls_gar_phase2_helmet
+    {
+        displayName = "24th Trooper NCO Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24th_Basic_NCO_Helmet.paa",
+            "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
+        };
+    };
 };
 
 
@@ -563,6 +585,18 @@ class CfgVehicles
         {
             "Aux24th\Textures\24th_Basic_Trooper_Uniform_Upper.paa",    // Upper Half
             "Aux24th\Textures\24th_Basic_Trooper_Uniform_Lower.paa",    // Lower Half
+            "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
+    class Aux24th_Unit_NCO_Trooper: lsd_gar_trooper_phase1
+    {
+        displayName = "24th NCO Trooper Armor";
+        uniformClass = "Aux24th_Uniform_NCO_Trooper";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Basic_NCO_Uniform_Upper.paa",    // Upper Half
+            "Aux24th\Textures\24th_Basic_NCO_Uniform_Lower.paa",    // Lower Half
             "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
         };
     };
