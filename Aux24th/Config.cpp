@@ -24,6 +24,7 @@ class CfgWeapons
     class lsd_gar_tanker_nvg;
     class SWLB_clone_backpack_medic;
     class SWLB_clone_backpack;
+    class SWLB_clone_medic_armor;
 
 	class Aux24th_Vest_Reaper: SWLB_clone_arc_armor
 	{
@@ -361,13 +362,34 @@ class CfgWeapons
 		};
 	};
 
+    class Aux24th_Vest_Medic: SWLB_clone_medic_armor
+	{
+        displayName = "24th Medic Vest"
+		hiddenSelectionsTextures[]=
+		{
+		    "Aux24th\Textures\24th_Medic_Heavy_Accessories.paa" // Chest plate/Satchel
+		};
+	};
+
+    class Aux24th_Backpack_Medic: SWLB_clone_backpack_medic
+    {
+        displayName = "24th Clone Medical Backpack";
+        hiddenSelectionsTextures[]=
+        {
+            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_medic_co.paa",
+            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_co.paa",
+            "Aux24th\Textures\24th_Clone_Medic_Backpack.paa",
+            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_co.paa"
+        };
+    };
+
     class Aux24th_Backpack: SWLB_clone_backpack
     {
         displayName = "24th Clone Backpack";
         hiddenSelectionsTextures[]=
         {
-            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_medic_co.paa",
-            "SWLB_equipment\backpacks\data\SWLB_clone_backpack.paa"
+            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_co.paa",
+            "Aux24th\Textures\24th_Clone_Backpack.paa"
         };
     };
 };
