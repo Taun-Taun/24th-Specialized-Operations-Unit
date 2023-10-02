@@ -370,7 +370,7 @@ class CfgWeapons
 		};
 	};
 
-    class Aux24th_Backpack_Medic: SWLB_clone_backpack_medic
+    class Aux24th_Backpack_Medic: SWLB_clone_backpack
     {
         displayName = "24th Clone Medical Backpack";
         hiddenSelectionsTextures[]=
