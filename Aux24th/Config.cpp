@@ -22,6 +22,8 @@ class CfgWeapons
     class SWLB_clone_officer_armor;
     class SWLB_clone_airborne_armor;
     class lsd_gar_tanker_nvg;
+    class SWLB_clone_backpack_medic;
+    class SWLB_clone_backpack;
 
 	class Aux24th_Vest_Reaper: SWLB_clone_arc_armor
 	{
@@ -358,6 +360,16 @@ class CfgWeapons
             "Aux24th\Textures\24th_Airborne_Medic_Heavy_Accessories.paa" // Shoulder Round Holster
 		};
 	};
+
+    class Aux24th_Backpack: SWLB_clone_backpack
+    {
+        displayName = "24th Clone Backpack";
+        hiddenSelectionsTextures[]=
+        {
+            "SWLB_equipment\backpacks\data\SWLB_clone_backpack_medic_co.paa",
+            "SWLB_equipment\backpacks\data\SWLB_clone_backpack.paa"
+        };
+    };
 };
 
 

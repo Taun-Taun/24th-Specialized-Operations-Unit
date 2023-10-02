@@ -24,6 +24,7 @@ class CfgPatches
                 // Clone Commander Visor
                 // Officer Vest
                 // Airborne Vest
+                // Clone Backpacks
         };
         units[] =
         {
