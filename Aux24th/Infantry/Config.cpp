@@ -24,6 +24,7 @@ class CfgWeapons
     class lsd_gar_tanker_nvg;
     class SWLB_clone_backpack;
     class SWLB_clone_medic_armor;
+    class SEA_Helmet_Hazard_Base;
 
 	class Aux24th_Vest_Reaper: SWLB_clone_arc_armor
 	{
@@ -261,13 +262,14 @@ class CfgWeapons
 		};
 	};
 
-    class Aux24th_Helmet_Maximus: ls_gar_phase2_helmet
+    class Aux24th_Helmet_Maximus: SEA_Helmet_Hazard_Base
     {
-        displayName = "Maximus's Helmet";
+        displayName = "Maximus's Hazard Helmet";
         hiddenSelectionsTextures[]=
         {
-            "Aux24th\Textures\Maximus_P2_Helmet.paa",
-            "Aux24th\Textures\Maximus_Visor.paa" // Blue Visor
+            "Aux24th\Textures\24th_Maximus_Hazard_Helmet.paa",
+            "Aux24th\Textures\Necc_CO.paa",
+            "Aux24th\Textures\Maximus_Visor_Hazard_co.paa" // Red Visor
         };
     };
 
@@ -444,6 +446,7 @@ class CfgVehicles
     class lsd_gar_trooper_phase1;
     class SWLB_clone_backpack;
     class SWLB_clone_backpack_medic;
+    class B_B_Parachute_02_F;
 
     class Aux24th_Unit_Reaper: lsd_gar_trooper_phase1
     {
@@ -656,4 +659,15 @@ class CfgVehicles
             ""                                                          // RTO
         };
     };
+
+    class Aux24th_Steerable_Chute: B_B_Parachute_02_F
+    {
+        displayName = "24th Steerable Parachute";
+
+        picture = "aux24th/Data/24th_Backpack_UI.paa"
+        hiddenSelectionsTextures[] = 
+        {
+            ""
+        }
+    }
 }

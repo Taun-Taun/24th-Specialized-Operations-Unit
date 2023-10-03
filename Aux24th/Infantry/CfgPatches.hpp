@@ -20,11 +20,13 @@ class CfgPatches
                 // Standard NVGs
                 // Rangefinder NVGs
                 // Armor Plating NVGs
-            "SWLB_Clones"
+            "SWLB_Clones",
                 // Clone Commander Visor
                 // Officer Vest
                 // Airborne Vest
                 // Clone Backpacks
+            "SEA"
+                // Clone Hazard Helmet
         };
         units[] =
         {
