@@ -25,7 +25,7 @@ class CfgPatches
                 // Officer Vest
                 // Airborne Vest
                 // Clone Backpacks
-            "SEA"
+            "JLTS_AE"
                 // Clone Hazard Helmet
         };
         units[] =

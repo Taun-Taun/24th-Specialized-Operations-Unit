@@ -659,15 +659,4 @@ class CfgVehicles
             ""                                                          // RTO
         };
     };
-
-    class Aux24th_Steerable_Chute: B_B_Parachute_02_F
-    {
-        displayName = "24th Steerable Parachute";
-
-        picture = "aux24th/Data/24th_Backpack_UI.paa"
-        hiddenSelectionsTextures[] = 
-        {
-            ""
-        }
-    }
 }
