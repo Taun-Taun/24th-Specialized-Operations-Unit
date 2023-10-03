@@ -25,6 +25,7 @@ class CfgWeapons
     class SWLB_clone_backpack;
     class SWLB_clone_medic_armor;
     class SEA_Helmet_Hazard_Base;
+    class JLTS_Clone_jumppack_JT12;
 
 	class Aux24th_Vest_Reaper: SWLB_clone_arc_armor
 	{
@@ -432,6 +433,15 @@ class CfgWeapons
             "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
         };
     };
+
+    class Aux24th_AB_JumpPack: JLTS_Clone_jumppack_JT12
+    {
+        displayName = "24th Airborne Jumppack JT12";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24thAB_JT_12.paa"
+        };
+    };
 };
 
 
@@ -447,6 +457,7 @@ class CfgVehicles
     class SWLB_clone_backpack;
     class SWLB_clone_backpack_medic;
     class B_B_Parachute_02_F;
+    class JLTS_Clone_jumppack_JT12;
 
     class Aux24th_Unit_Reaper: lsd_gar_trooper_phase1
     {
@@ -659,4 +670,26 @@ class CfgVehicles
             ""                                                          // RTO
         };
     };
-}
+
+    class Aux24th_Airborne_JT12: JLTS_Clone_jumppack_JT12
+    {
+        // Mod Info
+        dlc = "Aux24th";
+        author = "Taun";
+
+        // Scope
+        scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+
+        maximumLoad = 400;
+
+        displayName = "24th Airborne JT12 Jump Pack";
+
+        picture = "Aux24th\Data\24th_Backpack_UI.paa";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24thAB_JT_12.paa"
+        };
+    };
+};
