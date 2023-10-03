@@ -29,6 +29,8 @@ class CfgPatches
                 // Clone Hazard Helmet
             "JLTS",
                 // JT-12 Jumppack
+            "knd",
+                // knd Jetpack JT12
         };
         units[] =
         {
@@ -80,6 +82,7 @@ class CfgPatches
             "Aux24th_Uniform_NCO_Trooper",
             "Aux24th_NCO_Helmet_Trooper",
             "Aux24th_Airborne_JT12",
+            "Aux24th_AB_Jetpack",
         };
     };
 };

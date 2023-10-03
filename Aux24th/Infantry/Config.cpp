@@ -26,6 +26,7 @@ class CfgWeapons
     class SWLB_clone_medic_armor;
     class SEA_Helmet_Hazard_Base;
     class JLTS_Clone_jumppack_JT12;
+    class knd_jetpack_JT12_Maxim_Light;
 
 	class Aux24th_Vest_Reaper: SWLB_clone_arc_armor
 	{
@@ -442,6 +443,16 @@ class CfgWeapons
             "Aux24th\Textures\24thAB_JT_12.paa"
         };
     };
+
+    class Aux24th_AB_JetPack: knd_jetpack_JT12_Maxim_Light
+    {
+        displayName = "24th Airborne Jetpack JT12";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24thAB_JT_12.paa";
+            "Aux24th\Textures\24thAB_JT_12.paa"
+        };
+    };
 };
 
 
@@ -458,6 +469,7 @@ class CfgVehicles
     class SWLB_clone_backpack_medic;
     class B_B_Parachute_02_F;
     class JLTS_Clone_jumppack_JT12;
+    class knd_jetpack_JT12_Maxim_Light;
 
     class Aux24th_Unit_Reaper: lsd_gar_trooper_phase1
     {
@@ -671,7 +683,7 @@ class CfgVehicles
         };
     };
 
-    class Aux24th_Airborne_JT12: JLTS_Clone_jumppack_JT12
+    class Aux24th_AB_Jetpack: knd_jetpack_JT12_Maxim_Light
     {
         // Mod Info
         dlc = "Aux24th";
@@ -684,11 +696,12 @@ class CfgVehicles
 
         maximumLoad = 400;
 
-        displayName = "24th Airborne JT12 Jump Pack";
+        displayName = "24th Airborne JT12 Jetpack";
 
         picture = "Aux24th\Data\24th_Backpack_UI.paa";
         hiddenSelectionsTextures[] =
         {
+            "knd_fempacks\data\jt12\pack_co.paa",
             "Aux24th\Textures\24thAB_JT_12.paa"
         };
     };
