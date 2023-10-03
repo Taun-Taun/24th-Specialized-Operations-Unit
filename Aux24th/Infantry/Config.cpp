@@ -26,7 +26,6 @@ class CfgWeapons
     class SWLB_clone_medic_armor;
     class SEA_Helmet_Hazard_Base;
     class JLTS_Clone_jumppack_JT12;
-    class knd_jetpack_JT12_Maxim_Light;
 
 	class Aux24th_Vest_Reaper: SWLB_clone_arc_armor
 	{
@@ -435,21 +434,20 @@ class CfgWeapons
         };
     };
 
-    class Aux24th_AB_JumpPack: JLTS_Clone_jumppack_JT12
+    class Aux24th_AB_Jetpack: JLTS_Clone_jumppack_JT12
     {
-        displayName = "24th Airborne Jumppack JT12";
+        displayName = "24th Airborne JT12 Jetpack";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24thAB_JT_12.paa"
         };
     };
 
-    class Aux24th_AB_JetPack: knd_jetpack_JT12_Maxim_Light
+    class Aux24th_AB_Jetpack_LR: JLTS_Clone_jumppack_JT12
     {
-        displayName = "24th Airborne Jetpack JT12";
+        displayName = "24th Airborne JT12 Jetpack LR";
         hiddenSelectionsTextures[]=
         {
-            "Aux24th\Textures\24thAB_JT_12.paa";
             "Aux24th\Textures\24thAB_JT_12.paa"
         };
     };
@@ -469,7 +467,6 @@ class CfgVehicles
     class SWLB_clone_backpack_medic;
     class B_B_Parachute_02_F;
     class JLTS_Clone_jumppack_JT12;
-    class knd_jetpack_JT12_Maxim_Light;
 
     class Aux24th_Unit_Reaper: lsd_gar_trooper_phase1
     {
@@ -683,7 +680,7 @@ class CfgVehicles
         };
     };
 
-    class Aux24th_AB_Jetpack: knd_jetpack_JT12_Maxim_Light
+    class Aux24th_AB_Jetpack: JLTS_Clone_jumppack_JT12
     {
         // Mod Info
         dlc = "Aux24th";
@@ -696,13 +693,33 @@ class CfgVehicles
 
         maximumLoad = 400;
 
+        knd_isJetpack = 1;
+        knd_jetpack_acceeration = 3;
+        knd_jetpack_resistance = 6;
+
+        jlts_isjumppack = 0;
+        tas_is_jetpack = 0;
+
         displayName = "24th Airborne JT12 Jetpack";
 
         picture = "Aux24th\Data\24th_Backpack_UI.paa";
         hiddenSelectionsTextures[] =
         {
-            "knd_fempacks\data\jt12\pack_co.paa",
             "Aux24th\Textures\24thAB_JT_12.paa"
         };
+    };
+
+    class Aux24th_AB_Jetpack_LR: Aux24th_AB_Jetpack
+    {
+        displayName = "24th Airborne JT12 Jetpack LR";
+
+        // TFAR Long Range
+        tf_hasLRradio = 1;
+        tf_range = 25000;
+
+        tf_dialog = "SWLB_clone_rto_radio_dialog";
+        tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+        tf_encryptionCode = "tf_west_radio_code";
+        tf_subtype = "digital_lr";
     };
 };
