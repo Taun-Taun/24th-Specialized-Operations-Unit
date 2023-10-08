@@ -84,6 +84,7 @@ class CfgPatches
             "Aux24th_Airborne_JT12",
             "Aux24th_AB_Jetpack",
             "Aux24th_AB_Jetpack_LR",
+            "Aux24th_Basic_Vest",
         };
     };
 };

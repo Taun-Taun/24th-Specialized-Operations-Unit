@@ -26,6 +26,58 @@ class CfgWeapons
     class SWLB_clone_medic_armor;
     class SEA_Helmet_Hazard_Base;
     class JLTS_Clone_jumppack_JT12;
+    class V_PlateCarrier1_rgr;
+    class ItemInfo;
+    class SWLB_clone_basic_armor: V_PlateCarrier1_rgr
+    {
+        class ItemInfo;
+    };
+    class Aux24th_Basic_Vest: SWLB_clone_basic_armor
+    {
+        // Mod Info
+        dlc = "Aux24th";
+        author = "Taun";
+
+        // Scope
+        scope = 2;
+        scopeArsenal = 2;
+
+        displayName = "24th Basic Trooper Vest";
+
+        class ItemInfo: ItemInfo
+        {
+            containerClass = "Supply100";
+            vestType = "Rebreather";
+
+            class HitpointsProtectionInfo
+            {
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
 
 	class Aux24th_Vest_Reaper: SWLB_clone_arc_armor
 	{
@@ -35,6 +87,34 @@ class CfgWeapons
 		"Aux24th\Textures\Reaper_Accessories_ARC.paa",
 		"Aux24th\Textures\Reaper_Accessories_Officer.paa"
 		};
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = {"camo1", "camo2"};
+            uniformModel = "\SWLB_clones\SWLB_clone_arc_armor.p3d";
+            containerClass = "Supply200";
+
+            class HitpointsProtectionInfo
+            {
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 20;
+                    passThrough = 0.2;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 25;
+                    PassThrough = 0.1;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 20;
+                    passThrough = 0.1;
+                };
+            };
+        };
 	};
 
     class Aux24th_Helmet_Reaper: SWLB_CEE_Rex_Helmet
@@ -88,6 +168,34 @@ class CfgWeapons
 		{
 		"Aux24th\Textures\Deimos_Accessories_Officer.paa"
 		};
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = {"camo1", "camo2"};
+            uniformModel = "\SWLB_clones\SWLB_clone_arc_armor.p3d";
+            containerClass = "Supply200";
+
+            class HitpointsProtectionInfo
+            {
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 20;
+                    passThrough = 0.2;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 25;
+                    PassThrough = 0.1;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 20;
+                    passThrough = 0.1;
+                };
+            };
+        };
 	};
 
     class Aux24th_Uniform_STRKARC: ls_gar_phase2_uniform
@@ -120,6 +228,34 @@ class CfgWeapons
 		"Aux24th\Textures\24th_ARC_STRK_Accessories_ARC.paa",
 		"Aux24th\Textures\24th_ARC_STRK_Accessories_Officer.paa"
 		};
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = {"camo1", "camo2"};
+            uniformModel = "\SWLB_clones\SWLB_clone_arc_armor.p3d";
+            containerClass = "Supply200";
+
+            class HitpointsProtectionInfo
+            {
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 20;
+                    passThrough = 0.2;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 25;
+                    PassThrough = 0.1;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 20;
+                    passThrough = 0.1;
+                };
+            };
+        };
 	};
 
     class Aux24th_Vest_STRKOfficer: SWLB_clone_officer_armor
@@ -129,6 +265,39 @@ class CfgWeapons
 		{
 		"Aux24th\Textures\24th_STRK_Accessories_Officer.paa"
 		};
+        class ItemInfo: ItemInfo
+        {
+            containerClass = "Supply100";
+            vestType = "Rebreather";
+
+            class HitpointsProtectionInfo
+            {
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+            };
+        };
 	};
 
     class Aux24th_Helmet_STRKOfficer: ls_gar_phase2_helmet
@@ -228,9 +397,42 @@ class CfgWeapons
             "Aux24th\Textures\24th_Airborne_Trooper_Officer_Accessories_vest.paa", // Kama
             "Aux24th\Textures\24th_Airborne_Trooper_Heavy_Accessories_vest.paa" // Shoulder Round Holster
 		};
+        class ItemInfo: ItemInfo
+        {
+            containerClass = "Supply100";
+            vestType = "Rebreather";
+
+            class HitpointsProtectionInfo
+            {
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+            };
+        };
 	};
 
-    class Aux24th_Vest_Airborne_NCO: SWLB_clone_airborne_armor
+    class Aux24th_Vest_Airborne_NCO: Aux24th_Vest_Airborne
 	{
         displayName = "24th Airborne NCO Vest"
 		hiddenSelectionsTextures[]=
@@ -242,7 +444,7 @@ class CfgWeapons
 		};
 	};
 
-    class Aux24th_Vest_Airborne_Officer: SWLB_clone_airborne_armor
+    class Aux24th_Vest_Airborne_Officer: Aux24th_Vest_Airborne
 	{
         displayName = "24th Airborne Officer Vest"
 		hiddenSelectionsTextures[]=
@@ -261,6 +463,39 @@ class CfgWeapons
 		{
 		"Aux24th\Textures\Maximus_Officer_Accessories.paa"
 		};
+        class ItemInfo: ItemInfo
+        {
+            containerClass = "Supply100";
+            vestType = "Rebreather";
+
+            class HitpointsProtectionInfo
+            {
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+            };
+        };
 	};
 
     class Aux24th_Helmet_Maximus: SEA_Helmet_Hazard_Base
@@ -362,9 +597,42 @@ class CfgWeapons
             "Aux24th\Textures\24th_Airborne_Trooper_Officer_Accessories_vest.paa", // Kama
             "Aux24th\Textures\24th_Airborne_Medic_Heavy_Accessories.paa" // Shoulder Round Holster
 		};
+        class ItemInfo: ItemInfo
+        {
+            containerClass = "Supply100";
+            vestType = "Rebreather";
+
+            class HitpointsProtectionInfo
+            {
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+            };
+        };
 	};
 
-    class Aux24th_Vest_Medic: SWLB_clone_medic_armor
+    class Aux24th_Vest_Medic: Aux24th_Basic_Vest
 	{
         displayName = "24th Medic Vest"
 		hiddenSelectionsTextures[]=
@@ -604,6 +872,18 @@ class CfgVehicles
     {
         displayName = "24th Trooper Armor";
         uniformClass = "Aux24th_Uniform_Trooper";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Basic_Trooper_Uniform_Upper.paa",    // Upper Half
+            "Aux24th\Textures\24th_Basic_Trooper_Uniform_Lower.paa",    // Lower Half
+            "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
+    class Aux24th_Unit_MedicTrooper: lsd_gar_trooper_phase1
+    {
+        displayName = "24th Medic Trooper Armor";
+        uniformClass = "Aux24th_Uniform_MedicTrooper";
         hiddenSelectionsTextures[] =
         {
             "Aux24th\Textures\24th_Basic_Trooper_Uniform_Upper.paa",    // Upper Half
