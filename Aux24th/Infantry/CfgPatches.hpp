@@ -25,7 +25,7 @@ class CfgPatches
                 // Officer Vest
                 // Airborne Vest
                 // Clone Backpacks
-            "JLTS_AE",
+            "JLTS_EA",
                 // Clone Hazard Helmet
             "JLTS",
                 // JT-12 Jumppack
@@ -85,7 +85,7 @@ class CfgPatches
             "Aux24th_AB_Jetpack",
             "Aux24th_AB_Jetpack_LR",
             "Aux24th_Basic_Vest",
-            "Aux24th_Uniform_MedicTrooper",
+            "Aux24th_Uniform_MedTrooper",
             "Aux24th_Helmet_MedicTrooper",
         };
     };
