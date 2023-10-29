@@ -27,6 +27,7 @@ class CfgWeapons
     class SEA_Helmet_Hazard_Base;
     class JLTS_Clone_jumppack_JT12;
     class V_PlateCarrier1_rgr;
+    class lsd_gar_airborne_new;
     class ItemInfo;
     class SWLB_clone_basic_armor: V_PlateCarrier1_rgr
     {
@@ -645,6 +646,36 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24thAB_JT_12.paa"
+        };
+    };
+
+    class Aux24th_Helmet_Blitz: lsd_gar_airborne_new
+    {
+        displayName = "24th Blitz Airborne Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24th_Blitz_Airborne_Helmet.paa",
+            "ls_armor_bluefor\helmet\gar\airborne\data\visor_co.paa"
+        };
+    };
+
+    class Aux24th_Helmet_ABTrooper: lsd_gar_airborne_new
+    {
+        displayName = "24th Airborne Trooper Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24th_Airborne_Trooper_Helmet.paa",
+            "ls_armor_bluefor\helmet\gar\airborne\data\visor_co.paa"
+        };
+    };
+
+    class Aux24th_Helmet_ABMedic: lsd_gar_airborne_new
+    {
+        displayName = "24th Airborne Medic Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24th_Airborne_Medic_Helmet.paa",
+            "ls_armor_bluefor\helmet\gar\airborne\data\visor_co.paa"
         };
     };
 };

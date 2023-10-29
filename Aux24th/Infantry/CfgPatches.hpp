@@ -87,6 +87,9 @@ class CfgPatches
             "Aux24th_Basic_Vest",
             "Aux24th_Uniform_MedTrooper",
             "Aux24th_Helmet_MedicTrooper",
+            "Aux24th_Helmet_ABTrooper",
+            "Aux24th_Helmet_ABMedic",
+            "Aux24th_Helmet_Blitz",
         };
     };
 };
