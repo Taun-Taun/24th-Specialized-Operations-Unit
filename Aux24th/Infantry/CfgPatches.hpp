@@ -90,6 +90,9 @@ class CfgPatches
             "Aux24th_Helmet_ABTrooper",
             "Aux24th_Helmet_ABMedic",
             "Aux24th_Helmet_Blitz",
+            "Aux24th_Helmet_leslor",
+            "Aux24th_Uniform_Pilot",
+            "Aux24th_Helmet_Pilot",
         };
     };
 };

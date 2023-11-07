@@ -678,6 +678,38 @@ class CfgWeapons
             "ls_armor_bluefor\helmet\gar\airborne\data\visor_co.paa"
         };
     };
+
+    class Aux24th_Helmet_Leslor: ls_gar_phase2Pilot_helmet
+    {
+        displayName = "24th Strike Leslor P2 Pilot Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\Leslor_P2_Pilot_Helmet.paa",
+            "ls_armor_bluefor\helmet\gar\phase2pilot\data\visor_co.paa"
+        };
+    };
+
+    class Aux24th_Helmet_Pilot: ls_gar_phase2Pilot_helmet
+    {
+        displayName = "24th Basic Pilot Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24th_Basic_Pilot_Helmet.paa",
+            "ls_armor_bluefor\helmet\gar\phase2pilot\data\visor_co.paa"
+        };
+    };
+
+    class Aux24th_Uniform_Pilot: ls_gar_phase2_uniform
+	{
+		displayName = "24th Basic Pilot Armor";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Aux24th_Unit_Pilot"; 
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
 };
 
 
@@ -960,5 +992,17 @@ class CfgVehicles
         tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode = "tf_west_radio_code";
         tf_subtype = "digital_lr";
+    };
+
+    class Aux24th_Unit_Pilot: lsd_gar_trooper_phase1
+    {
+        displayName = "24th Basic Pilot Armor";
+        uniformClass = "Aux24th_Uniform_Pilot";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\24th_Basic_Pilot_Upper_Uniform.paa",    // Upper Half
+            "Aux24th\Textures\24th_Basic_Pilot_Lower_Uniform.paa",    // Lower Half
+            "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
     };
 };
