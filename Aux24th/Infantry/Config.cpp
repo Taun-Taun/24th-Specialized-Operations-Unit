@@ -871,7 +871,7 @@ class CfgVehicles
         };
     };
 
-    class Aux24th_Unit_MedicTrooper: lsd_gar_trooper_phase1
+    class Aux24th_Unit_MedTrooper: lsd_gar_trooper_phase1
     {
         displayName = "24th Medic Trooper Armor";
         uniformClass = "Aux24th_Uniform_MedTrooper";
