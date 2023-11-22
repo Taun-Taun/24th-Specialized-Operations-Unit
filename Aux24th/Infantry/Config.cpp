@@ -161,7 +161,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Deimos_Helmet_ARC.paa",
-            "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
+            "Aux24th\Textures\Reaper_visor_co.paa"
         };
     };
 
@@ -240,7 +240,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_STRK_Helmet_ARC.paa",
-            "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
+            "Aux24th\Textures\Reaper_visor_co.paa"
         };
     };
 
@@ -272,7 +272,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Officer_STRK_Helmet_P2.paa",
-            "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
+            "Aux24th\Textures\Reaper_visor_co.paa"
         };
     };
 
@@ -306,7 +306,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_NCO_STRK_Helmet_P2.paa",
-            "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
+            "Aux24th\Textures\Reaper_visor_co.paa"
         };
     };
 
@@ -328,7 +328,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_STRK_Trooper_Helmet.paa",
-            "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
+            "Aux24th\Textures\Reaper_visor_co.paa"
         };
     };
 
@@ -350,7 +350,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_STRK_PilotP2_Helmet.paa",
-            "ls_armor_bluefor\helmet\gar\phase2pilot\data\visor_co.paa"
+            "Aux24th\Textures\Reaper_visor_co.paa"
         };
     };
 
