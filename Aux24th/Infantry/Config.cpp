@@ -18,7 +18,7 @@ class CfgWeapons
     class UniformItem;
 	class SWLB_clone_arc_armor;
 	class SWLB_CEE_Rex_Helmet;
-    class SWLB_clone_P15_Helmet;
+    class lsd_gar_arc_helmet;
     class SWLB_clone_officer_armor;
     class SWLB_clone_airborne_armor;
     class lsd_gar_tanker_nvg;
@@ -33,18 +33,7 @@ class CfgWeapons
     {
         class ItemInfo;
     };
-    class SWLB_clone_airborne_armor: V_PlateCarrier1_rgr
-    {
-        class ItemInfo;
-    };
-    class SWLB_clone_officer_armor: V_PlateCarrier1_rgr
-    {
-        class ItemInfo;
-    };
-    class SWLB_clone_arc_armor: V_PlateCarrier1_rgr
-    {
-        class ItemInfo;
-    };
+
     class Aux24th_Basic_Vest: SWLB_clone_basic_armor
     {
         // Mod Info
@@ -155,13 +144,14 @@ class CfgWeapons
 		};
 	};
 
-    class Aux24th_Helmet_Deimos: SWLB_clone_P15_Helmet
+    class Aux24th_Helmet_Deimos: lsd_gar_arc_helmet
     {
         displayName = "Deimos's Helmet";
+        hiddenSelections[] = {"camo", "visor"};
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Deimos_Helmet_ARC.paa",
-            "Aux24th\Textures\Reaper_visor_co.paa"
+            "Aux24th\Textures\ARC_Visor.paa"
         };
     };
 
@@ -234,13 +224,14 @@ class CfgWeapons
 		};
 	};
 
-    class Aux24th_Helmet_STRKARC: SWLB_clone_P15_Helmet
+    class Aux24th_Helmet_STRKARC: lsd_gar_arc_helmet
     {
         displayName = "24th Strike Squad ARC Helmet";
+        hiddenSelections[] = {"camo", "visor"};
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_STRK_Helmet_ARC.paa",
-            "Aux24th\Textures\Reaper_visor_co.paa"
+            "Aux24th\Textures\ARC_Visor.paa"
         };
     };
 
