@@ -704,12 +704,12 @@ class CfgWeapons
 			mass = 40;
 		};
 	};
-    class W41_ARC: JLTS_Clone_P2_ARC						
+    class Aux24th_Arc_HelmetTest: JLTS_Clone_P2_ARC						
 	{
 		author="41stEliteCorps";										
 		scope=2;												
 		scopeCurator = 2;
-		displayName="41st ARC Helmet Test";
+		displayName="[41st] ARC Helmet Test";
         hiddenSelectionsMaterials[]=
         {
             "Aux24th\Textures\ARC_BASIC_HELMET.paa",
@@ -720,34 +720,23 @@ class CfgWeapons
 			"Aux24th\Textures\ARC_BASIC_HELMET.paa"
 		};
 	};
-    class W41_CSM_VEST: JLTS_CloneVestOfficer2				
-	{
-		author="41stEliteCorps";										
-		scope=2;
-		scopeCurator = 2;
-		displayName="41st CSM Vest";
-		hiddenSelectionsTextures[]= {"W41_Aux_Armor3\Data\VEST\OFFICER_VEST.paa",};
-		class ItemInfo: ItemInfo {
-          containerClass="Supply200";
-        };
-	};
     class W41_CT_Helmet: JLTS_CloneHelmetP2						
 	{
 		author="41stEliteCorps";										
 		scope=2;												
 		scopeCurator = 2;
 		displayName="[41st] Rank Helmet (CT)";
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_CT_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\CT_HELMET.paa" };
 	};
     class W41_SCT: W41_CT_Helmet						
 	{
 		displayName="[41st] Rank Helmet (SCT)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_SCT_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\SCT_HELMET.paa" };
 	};
     class W41_VCT: W41_CT_Helmet							
 	{
 		displayName="[41st] Rank Helmet (VCT)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_VCT_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\VCT_HELMET.paa" };
 	};
     class W41_CLC: W41_CT_Helmet							
 	{
@@ -757,7 +746,7 @@ class CfgWeapons
     class W41_CSP: W41_CT_Helmet							
 	{
 		displayName="[41st] Rank Helmet (CSP)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_CSP_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\CSP_HELMET.paa" };
 	};
     class W41_CP: W41_CT_Helmet							
 	{
@@ -767,7 +756,7 @@ class CfgWeapons
     class W41_WO1: W41_CT_Helmet							
 	{
 		displayName="[41st] Rank Helmet (WO1)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_WO1_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO1_HELMET.paa" };
 	};
     class W41_CS: W41_CT_Helmet							
 	{
@@ -777,7 +766,7 @@ class CfgWeapons
     class W41_WO2: W41_CT_Helmet							
 	{
 		displayName="[41st] Rank Helmet (WO2)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_WO2_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO2_HELMET.paa" };
 	};
     class W41_CGS: W41_CT_Helmet							
 	{
@@ -787,17 +776,17 @@ class CfgWeapons
     class W41_WO3: W41_CT_Helmet							
 	{
 		displayName="[41st] Rank Helmet (WO3)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_WO3_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO3_HELMET.paa" };
 	};
     class W41_CSM: W41_CT_Helmet							
 	{
 		displayName="[41st] Rank Helmet (CSM)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_CSM_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\CSM_HELMET.paa" };
 	};
     class W41_WO4: W41_CT_Helmet							
 	{
 		displayName="[41st] Rank Helmet (WO4)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_WO4_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO4_HELMET.paa" };
 	};
     class W41_CompSM: W41_CT_Helmet							
 	{
@@ -807,7 +796,7 @@ class CfgWeapons
     class W41_WO5: W41_CT_Helmet							
 	{
 		displayName="[41st] Rank Helmet (WO5)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_WO5_Helmet.paa" };
+		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO5_HELMET.paa" };
 	};
    
 

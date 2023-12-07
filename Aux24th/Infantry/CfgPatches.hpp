@@ -111,7 +111,7 @@ class CfgPatches
             "W41_WO5",
             "Aux24th_WestarM5",
             "W41_Ten_Helmet",
-            "W41_ARC",
+            "Aux24th_Arc_HelmetTest",
         };
     };
 };
