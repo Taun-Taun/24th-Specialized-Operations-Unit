@@ -94,7 +94,6 @@ class CfgPatches
             "Aux24th_Helmet_leslor",
             "Aux24th_Uniform_Pilot",
             "Aux24th_Helmet_Pilot",
-            "Aux24th_41st_ARCHelmetTest",
             "W41_CT",
             "W41_SCT",
             "W41_VCT",
@@ -112,6 +111,7 @@ class CfgPatches
             "W41_WO5",
             "Aux24th_WestarM5",
             "W41_Ten_Helmet",
+            "W41_ARC",
         };
     };
 };

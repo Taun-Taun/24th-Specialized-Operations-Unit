@@ -704,8 +704,7 @@ class CfgWeapons
 			mass = 40;
 		};
 	};
-
-    class Aux24th_41st_ARCHelmetTest: JLTS_Clone_P2_ARC						
+    class W41_ARC: JLTS_Clone_P2_ARC						
 	{
 		author="41stEliteCorps";										
 		scope=2;												
@@ -713,12 +712,12 @@ class CfgWeapons
 		displayName="41st ARC Helmet Test";
         hiddenSelectionsMaterials[]=
         {
-            "Aux24th\Textures\41st_ARC_Helmet.rvmat",
+            "Aux24th\Textures\ARC_BASIC_HELMET.paa",
         };							
 		hiddenSelectionsTextures[]=		
 		{
-			"Aux24th\Textures\41st_ARC_Helmet.paa",
-			"Aux24th\Textures\41st_ARC_Helmet.paa"
+			"Aux24th\Textures\ARC_BASIC_HELMET.paa",
+			"Aux24th\Textures\ARC_BASIC_HELMET.paa"
 		};
 	};
     class W41_CSM_VEST: JLTS_CloneVestOfficer2				
@@ -740,7 +739,7 @@ class CfgWeapons
 		displayName="[41st] Rank Helmet (CT)";
 		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_CT_Helmet.paa" };
 	};
-    class W41_SCT: W41_CT_Helmet							
+    class W41_SCT: W41_CT_Helmet						
 	{
 		displayName="[41st] Rank Helmet (SCT)";									
 		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_SCT_Helmet.paa" };
@@ -810,6 +809,7 @@ class CfgWeapons
 		displayName="[41st] Rank Helmet (WO5)";									
 		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_WO5_Helmet.paa" };
 	};
+   
 
 };
 
