@@ -704,16 +704,12 @@ class CfgWeapons
 			mass = 40;
 		};
 	};
-    class Aux24th_Arc_HelmetTest: JLTS_Clone_P2_ARC						
+    class W41_Arc_HelmetTest: JLTS_Clone_P2_ARC						
 	{
 		author="41stEliteCorps";										
 		scope=2;												
 		scopeCurator = 2;
-		displayName="[41st] ARC Helmet Test";
-        hiddenSelectionsMaterials[]=
-        {
-            "Aux24th\Textures\ARC_BASIC_HELMET.paa",
-        };							
+		displayName="[41st] ARC Helmet Test";							
 		hiddenSelectionsTextures[]=		
 		{
 			"Aux24th\Textures\ARC_BASIC_HELMET.paa",
