@@ -92,6 +92,7 @@ class CfgPatches
             "Aux24th_Helmet_leslor",
             "Aux24th_Uniform_Pilot",
             "Aux24th_Helmet_Pilot",
+            "Aux24th_41st_ARCHelmetTest",
         };
     };
 };

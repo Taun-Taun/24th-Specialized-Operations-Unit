@@ -145,18 +145,16 @@ class CfgWeapons
 		};
 	};
 
-    class Aux24th_Helmet_Deimos: JLTS_CloneHelmetARC_illum
+    class Aux24th_Helmet_Deimos: lsd_gar_arc_helmet
     {
-        author="41stEliteCorps";
-        scope=2;
-        scopeCurator = 2;
         displayName = "Deimos's Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Deimos_Helmet_ARC.paa",
-            "Aux24th\Textures\Deimos_Helmet_ARC.paa"
+            "Aux24th\Textures\Reaper_visor_co.paa"
         };
     };
+
 
     class Aux24th_Uniform_Deimos : ls_gar_phase2_uniform
 	{
@@ -702,6 +700,19 @@ class CfgWeapons
 			uniformClass = "Aux24th_Unit_Pilot"; 
 			containerClass = "Supply150";
 			mass = 40;
+		};
+	};
+
+    class Aux24th_41st_ARCHelmetTest: JLTS_CloneHelmetARC_illum							
+	{
+		author="41stEliteCorps";										
+		scope=2;												
+		scopeCurator = 2;
+		displayName="41st ARC Helmet Test";								
+		hiddenSelectionsTextures[]=		
+		{
+			"Aux24th\Textures\41st_ARC_Helmet.paa",
+			"Aux24th\Textures\41st_ARC_Helmet.paa"
 		};
 	};
 };
