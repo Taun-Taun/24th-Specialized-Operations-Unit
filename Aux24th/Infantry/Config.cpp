@@ -228,7 +228,7 @@ class CfgWeapons
 		};
 	};
 
-    class W41_ARC: JLTS_Clone_P2_ARC
+    class W41_ARC: JLTS_CloneHelmetARC_illum
     {
         displayName = "[41st] ARC Helmet";
         hiddenSelections[] = {"camo", "visor"};
