@@ -29,6 +29,7 @@ class CfgWeapons
     class V_PlateCarrier1_rgr;
     class lsd_gar_airborne_new;
     class ItemInfo;
+    class JLTS_CloneHelmetARC_illum;
     class SWLB_clone_basic_armor: V_PlateCarrier1_rgr
     {
         class ItemInfo;
@@ -144,14 +145,16 @@ class CfgWeapons
 		};
 	};
 
-    class Aux24th_Helmet_Deimos: lsd_gar_arc_helmet
+    class Aux24th_Helmet_Deimos: JLTS_CloneHelmetARC_illum
     {
+        author="41stEliteCorps";
+        scope=2;
+        scopeCurator = 2;
         displayName = "Deimos's Helmet";
-        hiddenSelections[] = {"camo", "visor"};
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Deimos_Helmet_ARC.paa",
-            "Aux24th\Textures\ARC_Visor.paa"
+            "Aux24th\Textures\Deimos_Helmet_ARC.paa"
         };
     };
 

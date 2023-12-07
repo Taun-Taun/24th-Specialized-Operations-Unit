@@ -27,6 +27,7 @@ class CfgPatches
                 // Clone Backpacks
             "JLTS",
                 // JT-12 Jumppack
+                // ARC Helmet
             "knd",
                 // knd Jetpack JT12
         };
