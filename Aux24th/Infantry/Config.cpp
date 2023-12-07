@@ -708,7 +708,11 @@ class CfgWeapons
 		author="41stEliteCorps";										
 		scope=2;												
 		scopeCurator = 2;
-		displayName="41st ARC Helmet Test";								
+		displayName="41st ARC Helmet Test";
+        hiddenSelectionsMaterials[]=
+        {
+            "Aux24th\Textures\41st_ARC_Helmet.rvmat",
+        };							
 		hiddenSelectionsTextures[]=		
 		{
 			"Aux24th\Textures\41st_ARC_Helmet.paa",

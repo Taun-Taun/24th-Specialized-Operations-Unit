@@ -30,6 +30,7 @@ class CfgPatches
                 // ARC Helmet
             "knd",
                 // knd Jetpack JT12
+            "JLTS_EA",
         };
         units[] =
         {
