@@ -142,7 +142,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_Reaper"; 
+			uniformClass = "Aux24th_Unit_Reaper";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -165,7 +165,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_Deimos"; 
+			uniformClass = "Aux24th_Unit_Deimos";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -222,7 +222,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_STRKARC"; 
+			uniformClass = "Aux24th_Unit_STRKARC";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -277,7 +277,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_STRKOfficer"; 
+			uniformClass = "Aux24th_Unit_STRKOfficer";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -289,7 +289,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_STRKNCO"; 
+			uniformClass = "Aux24th_Unit_STRKNCO";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -311,7 +311,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_STRKTrooper"; 
+			uniformClass = "Aux24th_Unit_STRKTrooper";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -333,7 +333,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_STRKPilot"; 
+			uniformClass = "Aux24th_Unit_STRKPilot";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -455,7 +455,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_Maximus"; 
+			uniformClass = "Aux24th_Unit_Maximus";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -467,7 +467,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_Blitz"; 
+			uniformClass = "Aux24th_Unit_Blitz";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -479,7 +479,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_ABTrooper"; 
+			uniformClass = "Aux24th_Unit_ABTrooper";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -491,7 +491,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_ABMedic"; 
+			uniformClass = "Aux24th_Unit_ABMedic";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -503,7 +503,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_Trooper"; 
+			uniformClass = "Aux24th_Unit_Trooper";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -535,7 +535,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_MedTrooper"; 
+			uniformClass = "Aux24th_Unit_MedTrooper";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -610,7 +610,7 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_NCO_Trooper"; 
+			uniformClass = "Aux24th_Unit_NCO_Trooper";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -700,98 +700,33 @@ class CfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_Pilot"; 
+			uniformClass = "Aux24th_Unit_Pilot";
 			containerClass = "Supply150";
 			mass = 40;
 		};
 	};
-    class W41_ARC_Helmet: JLTS_CloneHelmetARC_illum
+
+    class Aux24th_Uniform_Taun: ls_gar_phase2_uniform
+	{
+		displayName = "24th Taun's Uniform";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Aux24th_Unit_Taun";
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
+
+    class Aux24th_Helmet_Taun: ls_gar_phase2_helmet
     {
-        author="41stEliteCorps";
-        scope=2;
-        scopeCurator = 2;
-        displayName="[41st] Arc Trooper Helmet";
-        hiddenSelectionsTextures[]= {"Aux24th\Textures\41st_ARC_Trial.paa"};
+        displayName = "24th Taun's Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\Taun_P2_Helmet.paa",
+            "ls_armor_bluefor\helmet\gar\phase2\data\visor_co.paa"
+        };
     };
-    class W41_CT_Helmet: JLTS_CloneHelmetP2						
-	{
-		author="41stEliteCorps";										
-		scope=2;												
-		scopeCurator = 2;
-		displayName="[41st] Rank Helmet (CT)";
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\CT_HELMET.paa" };
-	};
-    class W41_SCT: W41_CT_Helmet						
-	{
-		displayName="[41st] Rank Helmet (SCT)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\SCT_HELMET.paa" };
-	};
-    class W41_VCT: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (VCT)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\VCT_HELMET.paa" };
-	};
-    class W41_CLC: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (CLC)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_CLC_Helmet.paa" };
-	};
-    class W41_CSP: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (CSP)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\CSP_HELMET.paa" };
-	};
-    class W41_CP: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (CP)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_CP_Helmet.paa" };
-	};
-    class W41_WO1: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (WO1)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO1_HELMET.paa" };
-	};
-    class W41_CS: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (CS)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_CS_Helmet.paa" };
-	};
-    class W41_WO2: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (WO2)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO2_HELMET.paa" };
-	};
-    class W41_CGS: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (CGS)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_CGS_Helmet.paa" };
-	};
-    class W41_WO3: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (WO3)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO3_HELMET.paa" };
-	};
-    class W41_CSM: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (CSM)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\CSM_HELMET.paa" };
-	};
-    class W41_WO4: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (WO4)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO4_HELMET.paa" };
-	};
-    class W41_CompSM: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (CompSM)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\41st_CompSM_Helmet.paa" };
-	};
-    class W41_WO5: W41_CT_Helmet							
-	{
-		displayName="[41st] Rank Helmet (WO5)";									
-		hiddenSelectionsTextures[]= { "Aux24th\Textures\WO5_HELMET.paa" };
-	};
-   
 
 };
 
@@ -819,6 +754,18 @@ class CfgVehicles
         {
             "Aux24th\Textures\Reaper_Uniform_Upper.paa",    // Upper Half
             "Aux24th\Textures\Reaper_Uniform_Lower.paa",    // Lower Half
+            "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
+    class Aux24th_Unit_Taun: lsd_gar_trooper_phase1
+    {
+        displayName = "Taun's Uniform";
+        uniformClass = "Aux24th_Uniform_Taun";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\Taun_Uniform_Upper.paa",    // Upper Half
+            "Aux24th\Textures\Taun_Uniform_Lower.paa",    // Lower Half
             "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
         };
     };
@@ -1090,4 +1037,3 @@ class CfgVehicles
         };
     };
 };
-
