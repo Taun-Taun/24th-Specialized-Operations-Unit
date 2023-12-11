@@ -47,7 +47,6 @@ class CfgWeapons
         // Scope
         scope = 2;
         scopeArsenal = 2;
-
         displayName = "24th Basic Trooper Vest";
 
         class ItemInfo: ItemInfo
@@ -87,8 +86,9 @@ class CfgWeapons
 
 	class Aux24th_Vest_Reaper: Aux24th_Basic_Vest
 	{
-        displayName = "Reaper's Vest"
-
+        scope=2;
+        scopeArsenal=2;
+        displayName = "Reaper's Vest";
         model = "\SWLB_clones\SWLB_clone_arc_armor.p3d";
         hiddenSelections[] = {"camo1", "camo2"};
 		hiddenSelectionsTextures[]=
@@ -128,6 +128,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_Reaper: SWLB_CEE_Rex_Helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "Reaper's Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -138,6 +140,8 @@ class CfgWeapons
 
 	class Aux24th_Uniform_Reaper : ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "Reaper's Armor";
 		class ItemInfo : UniformItem
 		{
@@ -150,6 +154,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_Deimos: lsd_gar_arc_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "Deimos's Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -161,6 +167,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_Deimos : ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "Deimos's Armor";
 		class ItemInfo : UniformItem
 		{
@@ -173,8 +181,9 @@ class CfgWeapons
 
     class Aux24th_Vest_Deimos: SWLB_clone_officer_armor
 	{
-        displayName = "Deimos's Vest"
-
+        scope=2;
+        scopeArsenal=2;
+        displayName = "Deimos's Vest";
         model = "\SWLB_clones\SWLB_clone_officer_armor";
         hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[]=
@@ -218,6 +227,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_STRKARC: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Strike Squad ARC Armor";
 		class ItemInfo : UniformItem
 		{
@@ -228,19 +239,10 @@ class CfgWeapons
 		};
 	};
 
-    class W41_ARC: JLTS_CloneHelmetARC_illum
-    {
-        displayName = "[41st] ARC Helmet";
-        hiddenSelections[] = {"camo", "visor"};
-        hiddenSelectionsTextures[]=
-        {
-            "Aux24th\Textures\ARC_BASIC_HELMET.paa",
-            "Aux24th\Textures\ARC_Visor.paa"
-        };
-    };
-
     class Aux24th_Vest_STRKARC: Aux24th_Vest_Reaper
 	{
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad Vest"
 		hiddenSelectionsTextures[]=
 		{
@@ -251,8 +253,9 @@ class CfgWeapons
 
     class Aux24th_Vest_STRKOfficer: Aux24th_Vest_Deimos
 	{
-        displayName = "24th Strike Squad Officer Vest"
-
+        scope=2;
+        scopeArsenal=2;
+        displayName = "24th Strike Squad Officer Vest";
         model = "\SWLB_clones\SWLB_clone_officer_armor.p3d";
         hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[]=
@@ -263,6 +266,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_STRKOfficer: ls_gar_phase2_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad Officer Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -273,6 +278,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_STRKOfficer: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Strike Squad Officer Armor";
 		class ItemInfo : UniformItem
 		{
@@ -285,6 +292,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_STRKNCO: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Strike Squad NCO Armor";
 		class ItemInfo : UniformItem
 		{
@@ -297,6 +306,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_STRKNCO: ls_gar_phase2_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad NCO Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -307,6 +318,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_STRKTrooper: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Strike Squad Trooper Armor";
 		class ItemInfo : UniformItem
 		{
@@ -319,6 +332,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_STRKTrooper: ls_gar_phase2_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad Trooper Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -329,6 +344,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_STRKPilot: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Strike Squad Pilot Armor";
 		class ItemInfo : UniformItem
 		{
@@ -341,6 +358,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_STRKPilot: ls_gar_phase2Pilot_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad Pilot Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -351,6 +370,8 @@ class CfgWeapons
 
     class Aux24th_Vest_Airborne: SWLB_clone_airborne_armor
 	{
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne Vest"
 		hiddenSelectionsTextures[]=
 		{
@@ -395,6 +416,8 @@ class CfgWeapons
 
     class Aux24th_Vest_Airborne_NCO: Aux24th_Vest_Airborne
 	{
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne NCO Vest"
 		hiddenSelectionsTextures[]=
 		{
@@ -407,6 +430,8 @@ class CfgWeapons
 
     class Aux24th_Vest_Airborne_Officer: Aux24th_Vest_Airborne_NCO
 	{
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne Officer Vest"
 		hiddenSelectionsTextures[]=
 		{
@@ -419,6 +444,8 @@ class CfgWeapons
 
     class Aux24th_Vest_Maximus: Aux24th_Vest_Deimos
 	{
+        scope=2;
+        scopeArsenal=2;
         displayName = "Maximus's Vest"
 
         model = "\SWLB_clones\SWLB_clone_officer_armor.p3d";
@@ -431,6 +458,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_Maximus: SEA_Helmet_Hazard_Base
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "Maximus's Hazard Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -442,6 +471,8 @@ class CfgWeapons
 
     class Aux24th_Maximus_Tanker: lsd_gar_tanker_nvg
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "Maximus's Tanker NVG";
         hiddenSelectionsTextures[]=
         {
@@ -451,6 +482,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_Maximus: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "Maximus's Armor";
 		class ItemInfo : UniformItem
 		{
@@ -463,6 +496,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_Blitz: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "Blitz's Armor";
 		class ItemInfo : UniformItem
 		{
@@ -475,6 +510,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_ABTrooper: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Airborne Trooper Armor";
 		class ItemInfo : UniformItem
 		{
@@ -487,6 +524,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_ABMedic: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Airborne Medic Armor";
 		class ItemInfo : UniformItem
 		{
@@ -499,6 +538,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_Trooper: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Trooper Armor";
 		class ItemInfo : UniformItem
 		{
@@ -511,6 +552,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_Trooper: ls_gar_phase2_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Trooper Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -521,6 +564,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_MedicTrooper: ls_gar_phase2_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Medic Trooper Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -531,6 +576,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_MedTrooper: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Medic Trooper Armor";
 		class ItemInfo : UniformItem
 		{
@@ -543,6 +590,8 @@ class CfgWeapons
 
     class Aux24th_Vest_Airborne_Medic: Aux24th_Vest_Airborne
 	{
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne Medic Vest"
 		hiddenSelectionsTextures[]=
 		{
@@ -554,6 +603,8 @@ class CfgWeapons
 
     class Aux24th_Vest_Medic: Aux24th_Vest_Airborne_Medic
 	{
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Medic Vest"
 
         model = "\SWLB_clones\SWLB_clone_airborne_armor.p3d";
@@ -567,6 +618,8 @@ class CfgWeapons
 
     class Aux24th_Backpack_Medic: SWLB_clone_backpack
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Clone Medical Backpack";
         hiddenSelectionsTextures[]=
         {
@@ -579,6 +632,8 @@ class CfgWeapons
 
     class Aux24th_Backpack: SWLB_clone_backpack
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Clone Backpack";
         hiddenSelectionsTextures[]=
         {
@@ -592,6 +647,8 @@ class CfgWeapons
 
     class Aux24th_Backpack_Heavy: Aux24th_Backpack
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Trooper Heavy Backpack";
 
         hiddenSelectionsTextures[] =
@@ -606,6 +663,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_NCO_Trooper: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th NCO Trooper Armor";
 		class ItemInfo : UniformItem
 		{
@@ -618,6 +677,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_NCO_Trooper: ls_gar_phase2_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Trooper NCO Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -628,6 +689,8 @@ class CfgWeapons
 
     class Aux24th_AB_Jetpack: JLTS_Clone_jumppack_JT12
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne JT12 Jetpack";
         hiddenSelectionsTextures[]=
         {
@@ -637,6 +700,8 @@ class CfgWeapons
 
     class Aux24th_AB_Jetpack_LR: JLTS_Clone_jumppack_JT12
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne JT12 Jetpack LR";
         hiddenSelectionsTextures[]=
         {
@@ -646,6 +711,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_Blitz: lsd_gar_airborne_new
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Blitz Airborne Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -656,6 +723,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_ABTrooper: lsd_gar_airborne_new
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne Trooper Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -666,6 +735,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_ABMedic: lsd_gar_airborne_new
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne Medic Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -676,6 +747,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_Leslor: ls_gar_phase2Pilot_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Leslor P2 Pilot Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -686,6 +759,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_Pilot: ls_gar_phase2Pilot_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Basic Pilot Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -696,6 +771,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_Pilot: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Basic Pilot Armor";
 		class ItemInfo : UniformItem
 		{
@@ -708,6 +785,8 @@ class CfgWeapons
 
     class Aux24th_Uniform_Taun: ls_gar_phase2_uniform
 	{
+        scope=2;
+        scopeArsenal=2;
 		displayName = "24th Taun's Uniform";
 		class ItemInfo : UniformItem
 		{
@@ -720,6 +799,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_Taun: ls_gar_phase2_helmet
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Taun's Helmet";
         hiddenSelectionsTextures[]=
         {
@@ -748,6 +829,8 @@ class CfgVehicles
 
     class Aux24th_Unit_Reaper: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "Reaper's Armor";
         uniformClass = "Aux24th_Uniform_Reaper";
         hiddenSelectionsTextures[] =
@@ -760,6 +843,8 @@ class CfgVehicles
 
     class Aux24th_Unit_Taun: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "Taun's Uniform";
         uniformClass = "Aux24th_Uniform_Taun";
         hiddenSelectionsTextures[] =
@@ -772,10 +857,14 @@ class CfgVehicles
 
     class Aux24th_Unit_Deimos: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "Deimos's Armor";
         uniformClass = "Aux24th_Uniform_Deimos";
         hiddenSelectionsTextures[] =
         {
+            scope=2;
+        scopeArsenal=2;
             "Aux24th\Textures\Deimos_Uniform_Upper.paa",    // Upper Half
             "Aux24th\Textures\Deimos_Uniform_Lower.paa",    // Lower Half
             "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
@@ -784,6 +873,8 @@ class CfgVehicles
 
     class Aux24th_Unit_STRKARC: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad ARC Armor";
         uniformClass = "Aux24th_Uniform_STRKARC";
         hiddenSelectionsTextures[] =
@@ -796,6 +887,8 @@ class CfgVehicles
 
     class Aux24th_Unit_STRKOfficer: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad Officer Armor";
         uniformClass = "Aux24th_Uniform_STRKOfficer";
         hiddenSelectionsTextures[] =
@@ -808,6 +901,8 @@ class CfgVehicles
 
     class Aux24th_Unit_STRKNCO: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad NCO Armor";
         uniformClass = "Aux24th_Uniform_STRKNCO";
         hiddenSelectionsTextures[] =
@@ -820,6 +915,8 @@ class CfgVehicles
 
     class Aux24th_Unit_STRKTrooper: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad Trooper Armor";
         uniformClass = "Aux24th_Uniform_STRKTrooper";
         hiddenSelectionsTextures[] =
@@ -832,6 +929,8 @@ class CfgVehicles
 
     class Aux24th_Unit_STRKPilot: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Strike Squad Pilot Armor";
         uniformClass = "Aux24th_Uniform_STRKPilot";
         hiddenSelectionsTextures[] =
@@ -844,6 +943,8 @@ class CfgVehicles
 
     class Aux24th_Unit_Maximus: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "Maximus's Armor";
         uniformClass = "Aux24th_Uniform_Maximus";
         hiddenSelectionsTextures[] =
@@ -856,6 +957,8 @@ class CfgVehicles
 
     class Aux24th_Unit_Blitz: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "Blitz's Armor";
         uniformClass = "Aux24th_Uniform_Blitz";
         hiddenSelectionsTextures[] =
@@ -868,6 +971,8 @@ class CfgVehicles
 
     class Aux24th_Unit_ABTrooper: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne Trooper Armor";
         uniformClass = "Aux24th_Uniform_ABTrooper";
         hiddenSelectionsTextures[] =
@@ -880,6 +985,8 @@ class CfgVehicles
 
     class Aux24th_Unit_ABMedic: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne Medic Armor";
         uniformClass = "Aux24th_Uniform_ABMedic";
         hiddenSelectionsTextures[] =
@@ -892,6 +999,8 @@ class CfgVehicles
 
     class Aux24th_Unit_Trooper: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Trooper Armor";
         uniformClass = "Aux24th_Uniform_Trooper";
         hiddenSelectionsTextures[] =
@@ -904,6 +1013,8 @@ class CfgVehicles
 
     class Aux24th_Unit_MedTrooper: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Medic Trooper Armor";
         uniformClass = "Aux24th_Uniform_MedTrooper";
         hiddenSelectionsTextures[] =
@@ -916,6 +1027,8 @@ class CfgVehicles
 
     class Aux24th_Unit_NCO_Trooper: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th NCO Trooper Armor";
         uniformClass = "Aux24th_Uniform_NCO_Trooper";
         hiddenSelectionsTextures[] =
@@ -954,6 +1067,8 @@ class CfgVehicles
 
     class Aux24th_Backpack_Medic: Aux24th_Backpack
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Medical Backpack";
 
         picture = "Aux24th\Data\24th_Backpack_Medic_UI.paa";
@@ -969,6 +1084,8 @@ class CfgVehicles
 
     class Aux24th_Backpack_Heavy: Aux24th_Backpack
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Trooper Heavy Backpack";
 
         picture = "Aux24th\Data\24th_Backpack_Heavy_UI.paa";
@@ -1013,6 +1130,8 @@ class CfgVehicles
 
     class Aux24th_AB_Jetpack_LR: Aux24th_AB_Jetpack
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Airborne JT12 Jetpack LR";
 
         // TFAR Long Range
@@ -1027,6 +1146,8 @@ class CfgVehicles
 
     class Aux24th_Unit_Pilot: lsd_gar_trooper_phase1
     {
+        scope=2;
+        scopeArsenal=2;
         displayName = "24th Basic Pilot Armor";
         uniformClass = "Aux24th_Uniform_Pilot";
         hiddenSelectionsTextures[] =
