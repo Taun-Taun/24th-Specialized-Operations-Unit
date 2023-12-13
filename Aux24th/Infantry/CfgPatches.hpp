@@ -25,7 +25,7 @@ class CfgPatches
                 // Officer Vest
                 // Airborne Vest
                 // Clone Backpacks
-            "JLTS",
+            "JLTS_Core",
                 // JT-12 Jumppack
                 // ARC Helmet
             "knd",
