@@ -863,8 +863,6 @@ class CfgVehicles
         uniformClass = "Aux24th_Uniform_Deimos";
         hiddenSelectionsTextures[] =
         {
-            scope=2;
-        scopeArsenal=2;
             "Aux24th\Textures\Deimos_Uniform_Upper.paa",    // Upper Half
             "Aux24th\Textures\Deimos_Uniform_Lower.paa",    // Lower Half
             "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
