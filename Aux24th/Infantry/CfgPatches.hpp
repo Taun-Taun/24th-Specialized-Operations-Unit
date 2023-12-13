@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class WPArmorTest
+    class Aux24th
     {
         author = "You!";
         requiredVersion = 1;
@@ -25,13 +25,14 @@ class CfgPatches
                 // Officer Vest
                 // Airborne Vest
                 // Clone Backpacks
-            "JLTS_Core",
-                // JT-12 Jumppack
+            "JLTS_characters_CloneArmor2",
                 // ARC Helmet
-            "knd",
+            "knd_fempacks",
                 // knd Jetpack JT12
-            "JLTS_EA",
-            "Last Force Project",
+            "SEA_JLTS_ExtendedArsenal",
+                // Clone Hazard Helmet
+            "JLTS_jumppacks",
+                // JT-12 Jumppack
         };
         units[] =
         {
@@ -39,6 +40,7 @@ class CfgPatches
             "Aux24th_Unit_Deimos",
             "Aux24th_Unit_Maximus",
             "Aux24th_Unit_Blitz",
+            "Aux24th_Unit_Taun",
             "Aux24th_Unit_ABTrooper",
             "Aux24th_Unit_ABMedic",
             "Aux24th_Unit_Trooper"
