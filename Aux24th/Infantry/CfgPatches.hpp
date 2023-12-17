@@ -25,6 +25,8 @@ class CfgPatches
                 // Officer Vest
                 // Airborne Vest
                 // Clone Backpacks
+            "JLTS_characters_CloneArmor1",
+                // Clone Trooper Armor
             "JLTS_characters_CloneArmor2",
                 // ARC Helmet
             "knd_fempacks",
@@ -98,6 +100,7 @@ class CfgPatches
             "Aux24th_Helmet_Pilot",
             "Aux24th_Uniform_Taun",
             "Aux24th_Helmet_Taun",
+            "Jade66thAux_Uniform_Raven",
         };
     };
 };

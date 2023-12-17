@@ -29,7 +29,7 @@ class CfgWeapons
     class V_PlateCarrier1_rgr;
     class lsd_gar_airborne_new;
     class ItemInfo;
-    class JLTS_CloneHelmetARC;
+    class JLTS_CloneArmor;
     class JLTS_CloneVestOfficer2;
     class JLTS_CloneHelmetP2;
     class JLTS_CloneHelmetARC_illum;
@@ -147,6 +147,20 @@ class CfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "Aux24th_Unit_Reaper";
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
+
+    class Jade66thAux_Uniform_Raven : JLTS_CloneArmor
+	{
+        scope=2;
+        scopeArsenal=2;
+		displayName = "Raven's Armor";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Jade66th_Unit_Raven";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -468,6 +482,7 @@ class CfgWeapons
             "Aux24th\Textures\Maximus_Visor_Hazard_co.paa" // Red Visor
         };
     };
+
 
     class Aux24th_Maximus_Tanker: lsd_gar_tanker_nvg
     {
@@ -826,6 +841,7 @@ class CfgVehicles
     class SWLB_clone_backpack_medic;
     class B_B_Parachute_02_F;
     class JLTS_Clone_jumppack_JT12;
+    class JLTS_CloneArmor;
 
     class Aux24th_Unit_Reaper: lsd_gar_trooper_phase1
     {
@@ -840,6 +856,21 @@ class CfgVehicles
             "ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa" // Undersuit / Body Glove
         };
     };
+
+    class Jade66th_Unit_Raven: JLTS_CloneArmor
+    {
+        scope=2;
+        scopeArsenal=2;
+        displayName = "Raven's Armor";
+        uniformClass = "Jade66thAux_Uniform_Raven";
+        hiddenSelectionsTextures[] =
+        {
+            "Aux24th\Textures\Reaper_Uniform_Upper.paa",    // Upper Half
+            "Aux24th\Textures\Raven_Sytha_Legs.paa",    // Lower Half
+            "JLTS_R_clones_armor_1\data\clone_undersuit_co.paa" // Undersuit / Body Glove
+        };
+    };
+
 
     class Aux24th_Unit_Taun: lsd_gar_trooper_phase1
     {
