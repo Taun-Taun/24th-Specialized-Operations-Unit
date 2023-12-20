@@ -33,6 +33,7 @@ class CfgWeapons
     class JLTS_CloneVestOfficer2;
     class JLTS_CloneHelmetP2;
     class JLTS_CloneHelmetARC_illum;
+    class SWLB_P2_SpecOps_Helmet;
     class SWLB_clone_basic_armor: V_PlateCarrier1_rgr
     {
         class ItemInfo;
@@ -138,6 +139,19 @@ class CfgWeapons
         };
     };
 
+    class Aux24th_Helmet_Reaper_SpecOps: SWLB_P2_SpecOps_Helmet
+    {
+        scope=2;
+        scopeArsenal=2;
+        displayName = "Reaper's Spec Ops Helmet";
+        hiddenSelections = {"camo1", "visor"};
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\Reaper_SpecOps_Helmet.paa",
+            "Aux24th\Textures\Reaper_visor_co.paa"
+        };
+    };
+
 	class Aux24th_Uniform_Reaper : ls_gar_phase2_uniform
 	{
         scope=2;
@@ -147,20 +161,6 @@ class CfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "Aux24th_Unit_Reaper";
-			containerClass = "Supply150";
-			mass = 40;
-		};
-	};
-
-    class Jade66thAux_Uniform_Raven : JLTS_CloneArmor
-	{
-        scope=2;
-        scopeArsenal=2;
-		displayName = "Raven's Armor";
-		class ItemInfo : UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "Jade66th_Unit_Raven";
 			containerClass = "Supply150";
 			mass = 40;
 		};
@@ -470,16 +470,15 @@ class CfgWeapons
 		};
     };
 
-    class Aux24th_Helmet_Maximus: SEA_Helmet_Hazard_Base
+    class Aux24th_Helmet_Maximus: ls_gar_phase2_helmet
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Maximus's Hazard Helmet";
+        displayName = "Maximus's Helmet";
         hiddenSelectionsTextures[]=
         {
-            "Aux24th\Textures\24th_Maximus_Hazard_Helmet.paa",
-            "Aux24th\Textures\Necc_CO.paa",
-            "Aux24th\Textures\Maximus_Visor_Hazard_co.paa" // Red Visor
+            "Aux24th\Textures\Maximus_P2_Helmet.paa",
+            "Aux24th\Textures\Maximus_Visor.paa" // Red Visor
         };
     };
 
