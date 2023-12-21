@@ -33,7 +33,7 @@ class CfgWeapons
     class JLTS_CloneVestOfficer2;
     class JLTS_CloneHelmetP2;
     class JLTS_CloneHelmetARC_illum;
-    class SWLB_P2_SpecOps_Helmet;
+    class ls_sob_phase2SpecOp_helmet;
     class SWLB_clone_basic_armor: V_PlateCarrier1_rgr
     {
         class ItemInfo;
@@ -139,18 +139,54 @@ class CfgWeapons
         };
     };
 
-    class Aux24th_Helmet_Reaper_SpecOps: SWLB_P2_SpecOps_Helmet
+    class Aux24th_Helmet_Reaper_SpecOps: ls_sob_phase2SpecOp_helmet
     {
-        scope=2;
-        scopeArsenal=2;
-        displayName = "Reaper's Spec Ops Helmet";
-        hiddenSelections = {"camo1", "visor"};
-        hiddenSelectionsTextures[]=
+        // Scope
+        scope = 2;
+        scopeArsenal = 2;
+
+        Aux24th_Helmet_Toggle = 1;
+        Aux24th_Helmet_Off = "Aux24th_Helmet_Reaper_SpecOps";
+        Aux24th_Helmet_On  = "Aux24th_Helmet_Reaper_SpecOps_Crimson";
+
+
+        displayName = "[24th] Reaper Spec Ops Helmet";
+
+        model = "\ls_armor_bluefor\helmet\sob\phase2SpecOp\ls_sob_phase2SpecOp_helmet.p3d";
+        hiddenSelections[] = {"Camo1", "visor"};
+        hiddenSelectionsTextures[] =
         {
             "Aux24th\Textures\Reaper_SpecOps_Helmet.paa",
-            "Aux24th\Textures\Reaper_visor_co.paa"
+            "Aux24th\Textures\Maximus_Visor_Hazard_co.paa",
+            "\ls_armor_bluefor\helmet\gar\phase1\data\illum_co.paa"
         };
+
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = {"Camo1", "visor"};
+            uniformModel = "\ls_armor_bluefor\helmet\sob\phase2SpecOp\ls_sob_phase2SpecOp_helmet.p3d";
+        };
+    }
+
+    class Aux24th_Helmet_Reaper_SpecOps_Crimson: Aux24th_Helmet_Reaper_SpecOps
+{
+    // Scopes
+    scope = 1;
+    scopeArsenal = 1;
+
+    displayName = "[24th] Reaper Spec Ops Helm [Crimson Visor]";
+    hiddenSelectionsMaterials[] =
+    {
+        "",
+        "\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"
     };
+    hiddenSelectionsTextures[] =
+    {
+        "Aux24th\Textures\Reaper_SpecOps_Helmet.paa",
+        "Aux24th\Textures\Maximus_Visor_Hazard_co.paa"
+    };
+};
+
 
 	class Aux24th_Uniform_Reaper : ls_gar_phase2_uniform
 	{

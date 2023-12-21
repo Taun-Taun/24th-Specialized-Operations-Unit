@@ -14,6 +14,7 @@ class CfgPatches
                 // Basic Uniform
 				// Rex Helmet
                 // ARC Helmet
+                // SpecOps Helmet
             "lsd_units_bluefor",
                 // Base Clone Unit
             "lsd_equipment_bluefor",
@@ -98,6 +99,7 @@ class CfgPatches
             "Aux24th_Helmet_Pilot",
             "Aux24th_Uniform_Taun",
             "Aux24th_Helmet_Taun",
+            "Aux24th_Helmet_Reaper_SpecOps_Crimson",
         };
     };
 };
