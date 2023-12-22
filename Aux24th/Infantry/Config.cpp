@@ -141,9 +141,8 @@ class CfgWeapons
 
     class Aux24th_Helmet_Reaper_SpecOps: ls_sob_phase2SpecOp_helmet
     {
-        // Scope
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 1;
+        scopeArsenal = 1;
 
         Aux24th_Helmet_Toggle = 1;
         Aux24th_Helmet_Off = "Aux24th_Helmet_Reaper_SpecOps";
@@ -157,8 +156,7 @@ class CfgWeapons
         hiddenSelectionsTextures[] =
         {
             "Aux24th\Textures\Reaper_SpecOps_Helmet.paa",
-            "Aux24th\Textures\Maximus_Visor_Hazard_co.paa",
-            "\ls_armor_bluefor\helmet\gar\phase1\data\illum_co.paa"
+            "Aux24th\Textures\Visor_Crimson.paa"
         };
 
         class ItemInfo: ItemInfo
@@ -169,10 +167,9 @@ class CfgWeapons
     }
 
     class Aux24th_Helmet_Reaper_SpecOps_Crimson: Aux24th_Helmet_Reaper_SpecOps
-{
-    // Scopes
-    scope = 1;
-    scopeArsenal = 1;
+    {
+    scope = 2;
+    scopeArsenal = 2;
 
     displayName = "[24th] Reaper Spec Ops Helm [Crimson Visor]";
     hiddenSelectionsMaterials[] =
@@ -185,7 +182,7 @@ class CfgWeapons
         "Aux24th\Textures\Reaper_SpecOps_Helmet.paa",
         "Aux24th\Textures\Visor_Crimson.paa"
     };
-};
+    };
 
 
 	class Aux24th_Uniform_Reaper : ls_gar_phase2_uniform
