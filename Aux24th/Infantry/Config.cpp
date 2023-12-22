@@ -48,7 +48,7 @@ class CfgWeapons
         // Scope
         scope = 2;
         scopeArsenal = 2;
-        displayName = "24th Basic Trooper Vest";
+        displayName = "[24th] Basic Trooper Vest";
 
         class ItemInfo: ItemInfo
         {
@@ -89,7 +89,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "Reaper's Vest";
+        displayName = "[24th] Reaper's Vest";
         model = "\SWLB_clones\SWLB_clone_arc_armor.p3d";
         hiddenSelections[] = {"camo1", "camo2"};
 		hiddenSelectionsTextures[]=
@@ -131,7 +131,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Reaper's Helmet";
+        displayName = "[24th] Reaper's Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Reaper_Helmet_Rex.paa",
@@ -183,7 +183,7 @@ class CfgWeapons
     hiddenSelectionsTextures[] =
     {
         "Aux24th\Textures\Reaper_SpecOps_Helmet.paa",
-        "Aux24th\Textures\Maximus_Visor_Hazard_co.paa"
+        "Aux24th\Textures\Visor_Crimson.paa"
     };
 };
 
@@ -206,7 +206,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Deimos's Helmet";
+        displayName = "[24th] Deimos's Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Deimos_Helmet_ARC.paa",
@@ -219,7 +219,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "Deimos's Armor";
+		displayName = "[24th] Deimos's Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -233,7 +233,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "Deimos's Vest";
+        displayName = "[24th] Deimos's Vest";
         model = "\SWLB_clones\SWLB_clone_officer_armor";
         hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[]=
@@ -279,7 +279,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Strike Squad ARC Armor";
+		displayName = "[24th] Strike Squad ARC Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -293,7 +293,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad Vest"
+        displayName = "[24th] Strike Squad Vest"
 		hiddenSelectionsTextures[]=
 		{
 		"Aux24th\Textures\24th_ARC_STRK_Accessories_ARC.paa",
@@ -305,7 +305,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad Officer Vest";
+        displayName = "[24th] Strike Squad Officer Vest";
         model = "\SWLB_clones\SWLB_clone_officer_armor.p3d";
         hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[]=
@@ -318,7 +318,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad Officer Helmet";
+        displayName = "[24th] Strike Squad Officer Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Officer_STRK_Helmet_P2.paa",
@@ -330,7 +330,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Strike Squad Officer Armor";
+		displayName = "[24th] Strike Squad Officer Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -344,7 +344,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Strike Squad NCO Armor";
+		displayName = "[24th] Strike Squad NCO Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -358,7 +358,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad NCO Helmet";
+        displayName = "[24th] Strike Squad NCO Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_NCO_STRK_Helmet_P2.paa",
@@ -370,7 +370,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Strike Squad Trooper Armor";
+		displayName = "[24th] Strike Squad Trooper Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -384,7 +384,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad Trooper Helmet";
+        displayName = "[24th] Strike Squad Trooper Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_STRK_Trooper_Helmet.paa",
@@ -396,7 +396,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Strike Squad Pilot Armor";
+		displayName = "[24th] Strike Squad Pilot Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -410,7 +410,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad Pilot Helmet";
+        displayName = "[24th] Strike Squad Pilot Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_STRK_PilotP2_Helmet.paa",
@@ -422,7 +422,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne Vest"
+        displayName = "[24th] Airborne Vest"
 		hiddenSelectionsTextures[]=
 		{
 		    "Aux24th\Textures\24th_Airborne_Trooper_Heavy_Accessories_vest.paa", // Chest plate/Satchel
@@ -468,7 +468,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne NCO Vest"
+        displayName = "[24th] Airborne NCO Vest"
 		hiddenSelectionsTextures[]=
 		{
 		    "Aux24th\Textures\24th_Airborne_NCO_Heavy_Accessories.paa", // Chest plate/Satchel
@@ -482,7 +482,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne Officer Vest"
+        displayName = "[24th] Airborne Officer Vest"
 		hiddenSelectionsTextures[]=
 		{
 		    "Aux24th\Textures\24th_Airborne_Officer_Heavy_Accessories.paa", // Chest plate/Satchel
@@ -496,7 +496,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "Maximus's Vest"
+        displayName = "[24th] Maximus's Vest"
 
         model = "\SWLB_clones\SWLB_clone_officer_armor.p3d";
         hiddenSelections[] = {"camo1"};
@@ -510,7 +510,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Maximus's Helmet";
+        displayName = "[24th] Maximus's Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Maximus_P2_Helmet.paa",
@@ -523,7 +523,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Maximus's Tanker NVG";
+        displayName = "[24th] Maximus's Tanker NVG";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Maximus_Tanker_Attachment.paa"
@@ -534,7 +534,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "Maximus's Armor";
+		displayName = "[24th] Maximus's Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -548,7 +548,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "Blitz's Armor";
+		displayName = "[24th] Blitz's Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -562,7 +562,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Airborne Trooper Armor";
+		displayName = "[24th] Airborne Trooper Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -576,7 +576,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Airborne Medic Armor";
+		displayName = "[24th] Airborne Medic Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -590,7 +590,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Trooper Armor";
+		displayName = "[24th] Trooper Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -604,7 +604,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Trooper Helmet";
+        displayName = "[24th] Trooper Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Basic_Trooper_Helmet.paa",
@@ -616,7 +616,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Medic Trooper Helmet";
+        displayName = "[24th] Medic Trooper Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Basic_Medic_Trooper_Helmet.paa",
@@ -628,7 +628,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Medic Trooper Armor";
+		displayName = "[24th] Medic Trooper Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -642,7 +642,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne Medic Vest"
+        displayName = "[24th] Airborne Medic Vest"
 		hiddenSelectionsTextures[]=
 		{
 		    "Aux24th\Textures\24th_Airborne_Medic_Heavy_Accessories.paa", // Chest plate/Satchel
@@ -655,7 +655,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Medic Vest"
+        displayName = "[24th] Medic Vest"
 
         model = "\SWLB_clones\SWLB_clone_airborne_armor.p3d";
         hiddenSelections[] = {"camo1", "camo2", "ammo", "pauldron"};
@@ -670,7 +670,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Clone Medical Backpack";
+        displayName = "[24th] Clone Medical Backpack";
         hiddenSelectionsTextures[]=
         {
             "SWLB_equipment\backpacks\data\SWLB_clone_backpack_medic_co.paa",
@@ -684,7 +684,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Clone Backpack";
+        displayName = "[24th] Clone Backpack";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Clone_Backpack.paa",
@@ -699,7 +699,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Trooper Heavy Backpack";
+        displayName = "[24th] Trooper Heavy Backpack";
 
         hiddenSelectionsTextures[] =
         {
@@ -715,7 +715,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th NCO Trooper Armor";
+		displayName = "[24th] NCO Trooper Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -729,7 +729,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Trooper NCO Helmet";
+        displayName = "[24th] Trooper NCO Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Basic_NCO_Helmet.paa",
@@ -741,7 +741,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne JT12 Jetpack";
+        displayName = "[24th] Airborne JT12 Jetpack";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24thAB_JT_12.paa"
@@ -752,7 +752,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne JT12 Jetpack LR";
+        displayName = "[24th] Airborne JT12 Jetpack LR";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24thAB_JT_12.paa"
@@ -763,7 +763,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Blitz Airborne Helmet";
+        displayName = "[24th] Blitz Airborne Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Blitz_Airborne_Helmet.paa",
@@ -775,7 +775,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne Trooper Helmet";
+        displayName = "[24th] Airborne Trooper Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Airborne_Trooper_Helmet.paa",
@@ -787,7 +787,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne Medic Helmet";
+        displayName = "[24th] Airborne Medic Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Airborne_Medic_Helmet.paa",
@@ -799,7 +799,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Leslor P2 Pilot Helmet";
+        displayName = "[24th] Strike Leslor P2 Pilot Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Leslor_P2_Pilot_Helmet.paa",
@@ -811,7 +811,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Basic Pilot Helmet";
+        displayName = "[24th] Basic Pilot Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\24th_Basic_Pilot_Helmet.paa",
@@ -823,7 +823,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Basic Pilot Armor";
+		displayName = "[24th] Basic Pilot Armor";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -837,7 +837,7 @@ class CfgWeapons
 	{
         scope=2;
         scopeArsenal=2;
-		displayName = "24th Taun's Uniform";
+		displayName = "[24th] Taun's Uniform";
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
@@ -851,7 +851,7 @@ class CfgWeapons
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Taun's Helmet";
+        displayName = "[24th] Taun's Helmet";
         hiddenSelectionsTextures[]=
         {
             "Aux24th\Textures\Taun_P2_Helmet.paa",
@@ -861,7 +861,35 @@ class CfgWeapons
 
 };
 
+    class ls_nvg_base;
+    class lsd_gar_standard_nvg: ls_nvg_base
+    {
+        class ItemInfo;
+    };
+    class Aux24th_NVG_Chip: lsd_gar_standard_nvg
+    {
 
+        scope = 2;
+        scopeArsenal = 2;
+
+        displayName = "[24th] Clone NVG Chip";
+
+        visionMode[] = {"Normal", "NVG", "TI"};
+        thermalMode[] = {0};
+
+        model = "\A3\weapons_F\ammo\mag_univ.p3d";
+        modelOptics = "Aux24th\Data\Models\empty_model.p3d";
+        hiddenSelections[] = {};
+        hiddenSelectionsTextures[] = {};
+        picture = "\MRC\JLTS\Core_mod\data\ui\nvg_chip_1_ui_ca.paa";
+
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[] = {};
+            uniformModel = "Aux24th\Data\Models\empty_model.p3d";
+            modelOff = "Aux24th\Data\Models\empty_model.p3d";
+        };
+    };
 
 class CfgVehicles
 {
@@ -876,13 +904,12 @@ class CfgVehicles
     class SWLB_clone_backpack_medic;
     class B_B_Parachute_02_F;
     class JLTS_Clone_jumppack_JT12;
-    class JLTS_CloneArmor;
 
     class Aux24th_Unit_Reaper: lsd_gar_trooper_phase1
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Reaper's Armor";
+        displayName = "[24th] Reaper's Armor";
         uniformClass = "Aux24th_Uniform_Reaper";
         hiddenSelectionsTextures[] =
         {
@@ -892,26 +919,11 @@ class CfgVehicles
         };
     };
 
-    class Jade66th_Unit_Raven: JLTS_CloneArmor
-    {
-        scope=2;
-        scopeArsenal=2;
-        displayName = "Raven's Armor";
-        uniformClass = "Jade66thAux_Uniform_Raven";
-        hiddenSelectionsTextures[] =
-        {
-            "Aux24th\Textures\Reaper_Uniform_Upper.paa",    // Upper Half
-            "Aux24th\Textures\Raven_Sytha_Legs.paa",    // Lower Half
-            "JLTS_R_clones_armor_1\data\clone_undersuit_co.paa" // Undersuit / Body Glove
-        };
-    };
-
-
     class Aux24th_Unit_Taun: lsd_gar_trooper_phase1
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Taun's Uniform";
+        displayName = "[24th] Taun's Armor";
         uniformClass = "Aux24th_Uniform_Taun";
         hiddenSelectionsTextures[] =
         {
@@ -925,7 +937,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Deimos's Armor";
+        displayName = "[24th] Deimos's Armor";
         uniformClass = "Aux24th_Uniform_Deimos";
         hiddenSelectionsTextures[] =
         {
@@ -939,7 +951,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad ARC Armor";
+        displayName = "[24th] Strike Squad ARC Armor";
         uniformClass = "Aux24th_Uniform_STRKARC";
         hiddenSelectionsTextures[] =
         {
@@ -953,7 +965,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad Officer Armor";
+        displayName = "[24th] Strike Squad Officer Armor";
         uniformClass = "Aux24th_Uniform_STRKOfficer";
         hiddenSelectionsTextures[] =
         {
@@ -967,7 +979,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad NCO Armor";
+        displayName = "[24th] Strike Squad NCO Armor";
         uniformClass = "Aux24th_Uniform_STRKNCO";
         hiddenSelectionsTextures[] =
         {
@@ -981,7 +993,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad Trooper Armor";
+        displayName = "[24th] Strike Squad Trooper Armor";
         uniformClass = "Aux24th_Uniform_STRKTrooper";
         hiddenSelectionsTextures[] =
         {
@@ -995,7 +1007,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Strike Squad Pilot Armor";
+        displayName = "[24th] Strike Squad Pilot Armor";
         uniformClass = "Aux24th_Uniform_STRKPilot";
         hiddenSelectionsTextures[] =
         {
@@ -1009,7 +1021,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Maximus's Armor";
+        displayName = "[24th] Maximus's Armor";
         uniformClass = "Aux24th_Uniform_Maximus";
         hiddenSelectionsTextures[] =
         {
@@ -1023,7 +1035,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "Blitz's Armor";
+        displayName = "[24th] Blitz's Armor";
         uniformClass = "Aux24th_Uniform_Blitz";
         hiddenSelectionsTextures[] =
         {
@@ -1037,7 +1049,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne Trooper Armor";
+        displayName = "[24th] Airborne Trooper Armor";
         uniformClass = "Aux24th_Uniform_ABTrooper";
         hiddenSelectionsTextures[] =
         {
@@ -1051,7 +1063,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne Medic Armor";
+        displayName = "[24th] Airborne Medic Armor";
         uniformClass = "Aux24th_Uniform_ABMedic";
         hiddenSelectionsTextures[] =
         {
@@ -1065,7 +1077,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Trooper Armor";
+        displayName = "[24th] Trooper Armor";
         uniformClass = "Aux24th_Uniform_Trooper";
         hiddenSelectionsTextures[] =
         {
@@ -1079,7 +1091,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Medic Trooper Armor";
+        displayName = "[24th] Medic Trooper Armor";
         uniformClass = "Aux24th_Uniform_MedTrooper";
         hiddenSelectionsTextures[] =
         {
@@ -1093,7 +1105,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th NCO Trooper Armor";
+        displayName = "[24th] NCO Trooper Armor";
         uniformClass = "Aux24th_Uniform_NCO_Trooper";
         hiddenSelectionsTextures[] =
         {
@@ -1116,7 +1128,7 @@ class CfgVehicles
 
         maximumLoad = 400;
 
-        displayName = "24th Trooper Backpack";
+        displayName = "[24th] Trooper Backpack";
 
         picture = "Aux24th\Data\24th_Backpack_UI.paa";
         hiddenSelectionsTextures[] =
@@ -1133,7 +1145,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Medical Backpack";
+        displayName = "[24th] Medical Backpack";
 
         picture = "Aux24th\Data\24th_Backpack_Medic_UI.paa";
         hiddenSelectionsTextures[] =
@@ -1150,7 +1162,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Trooper Heavy Backpack";
+        displayName = "[24th] Trooper Heavy Backpack";
 
         picture = "Aux24th\Data\24th_Backpack_Heavy_UI.paa";
         hiddenSelectionsTextures[] =
@@ -1183,7 +1195,7 @@ class CfgVehicles
         jlts_isjumppack = 0;
         tas_is_jetpack = 0;
 
-        displayName = "24th Airborne JT12 Jetpack";
+        displayName = "[24th] Airborne JT12 Jetpack";
 
         picture = "Aux24th\Data\24th_Backpack_UI.paa";
         hiddenSelectionsTextures[] =
@@ -1196,7 +1208,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Airborne JT12 Jetpack LR";
+        displayName = "[24th] Airborne JT12 Jetpack LR";
 
         // TFAR Long Range
         tf_hasLRradio = 1;
@@ -1212,7 +1224,7 @@ class CfgVehicles
     {
         scope=2;
         scopeArsenal=2;
-        displayName = "24th Basic Pilot Armor";
+        displayName = "[24th] Basic Pilot Armor";
         uniformClass = "Aux24th_Uniform_Pilot";
         hiddenSelectionsTextures[] =
         {
