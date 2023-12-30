@@ -211,6 +211,17 @@ class CfgWeapons
         };
     };
 
+    class Aux24th_Helmet_Taun_ARC: lsd_gar_arc_helmet
+    {
+        scope=2;
+        scopeArsenal=2;
+        displayName = "[24th] Taun's ARC Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24th_Taun_ARC_Helmet.paa",
+            "lsd_armor_bluefor\helmet\gar\arc\data\visor_co.paa"
+        };
+    };
 
     class Aux24th_Uniform_Deimos : ls_gar_phase2_uniform
 	{
@@ -226,16 +237,68 @@ class CfgWeapons
 		};
 	};
 
-    class Aux24th_Vest_Deimos: SWLB_clone_officer_armor
+    class Aux24th_Vest_Deimos: Aux24th_Vest_Reaper
 	{
         scope=2;
         scopeArsenal=2;
         displayName = "[24th] Deimos's Vest";
-        model = "\SWLB_clones\SWLB_clone_officer_armor";
+        model = "\SWLB_clones\SWLB_clone_arc_armor.p3d";
+        hiddenSelections[] = {"camo1", "camo2"};
+		hiddenSelectionsTextures[]=
+		{
+		"Aux24th\Textures\Deimos_Accessories_ARC.paa",
+		"Aux24th\Textures\Deimos_Accessories_Officer.paa"
+		};
+	};
+
+    class Aux24th_Helmet_STRKARC: lsd_gar_arc_helmet
+    {
+        scope=2;
+        scopeArsenal=2;
+        displayName = "[24th] Strike Squad ARC Helmet";
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\24th_STRK_Helmet_ARC.paa",
+            "lsd_armor_bluefor\helmet\gar\arc\data\visor_co.paa"
+        };
+    };
+
+    class Aux24th_Uniform_STRKARC: ls_gar_phase2_uniform
+	{
+        scope=2;
+        scopeArsenal=2;
+		displayName = "[24th] Strike Squad ARC Armor";
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "Aux24th_Unit_STRKARC";
+			containerClass = "Supply150";
+			mass = 40;
+		};
+	};
+
+    class Aux24th_Vest_STRKARC: Aux24th_Vest_Reaper
+	{
+        scope=2;
+        scopeArsenal=2;
+        displayName = "[24th] Strike Squad Vest"
+		hiddenSelectionsTextures[]=
+		{
+		"Aux24th\Textures\24th_ARC_STRK_Accessories_ARC.paa",
+		"Aux24th\Textures\24th_ARC_STRK_Accessories_Officer.paa"
+		};
+	};
+
+    class Aux24th_Vest_STRKOfficer: SWLB_clone_officer_armor
+	{
+        scope=2;
+        scopeArsenal=2;
+        displayName = "[24th] Strike Squad Officer Vest";
+        model = "\SWLB_clones\SWLB_clone_officer_armor.p3d";
         hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[]=
 		{
-		"Aux24th\Textures\Deimos_Accessories_Officer.paa"
+		"Aux24th\Textures\24th_STRK_Accessories_Officer.paa"
 		};
         class ItemInfo: ItemInfo
         {
@@ -270,45 +333,6 @@ class CfgWeapons
                 };
             };
         };
-	};
-
-    class Aux24th_Uniform_STRKARC: ls_gar_phase2_uniform
-	{
-        scope=2;
-        scopeArsenal=2;
-		displayName = "[24th] Strike Squad ARC Armor";
-		class ItemInfo : UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "Aux24th_Unit_STRKARC";
-			containerClass = "Supply150";
-			mass = 40;
-		};
-	};
-
-    class Aux24th_Vest_STRKARC: Aux24th_Vest_Reaper
-	{
-        scope=2;
-        scopeArsenal=2;
-        displayName = "[24th] Strike Squad Vest"
-		hiddenSelectionsTextures[]=
-		{
-		"Aux24th\Textures\24th_ARC_STRK_Accessories_ARC.paa",
-		"Aux24th\Textures\24th_ARC_STRK_Accessories_Officer.paa"
-		};
-	};
-
-    class Aux24th_Vest_STRKOfficer: Aux24th_Vest_Deimos
-	{
-        scope=2;
-        scopeArsenal=2;
-        displayName = "[24th] Strike Squad Officer Vest";
-        model = "\SWLB_clones\SWLB_clone_officer_armor.p3d";
-        hiddenSelections[] = {"camo1"};
-		hiddenSelectionsTextures[]=
-		{
-		"Aux24th\Textures\24th_STRK_Accessories_Officer.paa"
-		};
 	};
 
     class Aux24th_Helmet_STRKOfficer: ls_gar_phase2_helmet

@@ -101,6 +101,7 @@ class CfgPatches
             "Aux24th_Helmet_Taun",
             "Aux24th_Helmet_Reaper_SpecOps",
             "Aux24th_Helmet_Reaper_SpecOps_Crimson",
+            "Aux24th_Helmet_Taun_ARC"
         };
     };
 };
