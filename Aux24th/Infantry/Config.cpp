@@ -513,7 +513,7 @@ class CfgWeapons
 		};
 	};
 
-    class Aux24th_Vest_Maximus: Aux24th_Vest_Deimos
+    class Aux24th_Vest_Maximus: Aux24th_Vest_STRKOfficer
 	{
         scope=2;
         scopeArsenal=2;
