@@ -26,6 +26,7 @@ class CfgPatches
                 // Officer Vest
                 // Airborne Vest
                 // Clone Backpacks
+                // Clone Arc Backpack
             "JLTS_characters_CloneArmor2",
                 // ARC Helmet
             "knd_fempacks",
@@ -101,7 +102,8 @@ class CfgPatches
             "Aux24th_Helmet_Taun",
             "Aux24th_Helmet_Reaper_SpecOps",
             "Aux24th_Helmet_Reaper_SpecOps_Crimson",
-            "Aux24th_Helmet_Taun_ARC"
+            "Aux24th_Helmet_Taun_ARC",
+            "Aux816th_ARC_Backpack",
         };
     };
 };

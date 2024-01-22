@@ -925,6 +925,20 @@ class CfgVehicles
     class SWLB_clone_backpack_medic;
     class B_B_Parachute_02_F;
     class JLTS_Clone_jumppack_JT12;
+    class SWLB_clone_arc_backpack;
+
+    class Aux816th_ARC_Backpack: SWLB_clone_arc_backpack
+    {
+        scope=2;
+        scopeArsenal=2;
+        displayName = "[816th] ARC Backpack";
+        uniformClass = "Aux24th_ArcPack";
+        maximumLoad = 800;
+        hiddenSelectionsTextures[]=
+        {
+            "Aux24th\Textures\816th_Arc_backpack.paa"
+        };
+    };
 
     class Aux24th_Unit_Reaper: lsd_gar_trooper_phase1
     {
